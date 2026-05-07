@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip --version)",
+      "Bash(docker --version)",
+      "Bash(docker compose *)"
+    ]
+  }
+}

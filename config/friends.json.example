@@ -1,0 +1,17 @@
+{
+  "group_name": "Happy Hour Crew",
+  "friends": [
+    {
+      "name": "Alice",
+      "phone": "+15551234567"
+    },
+    {
+      "name": "Bob",
+      "phone": "+15551234568"
+    },
+    {
+      "name": "Charlie",
+      "phone": "+15551234569"
+    }
+  ]
+}

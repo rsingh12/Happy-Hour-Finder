@@ -1,0 +1,9 @@
+google-api-python-client==2.147.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+selenium==4.25.0
+webdriver-manager==4.0.2
+beautifulsoup4==4.12.3
+requests==2.32.3
+inquirer==3.4.0
+anthropic==0.39.0

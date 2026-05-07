@@ -1,0 +1,77 @@
+# --- Secrets & local config (NEVER commit) ---
+.env
+.env.local
+.env.*.local
+
+# Google OAuth artifacts
+config/credentials.json
+config/token.json
+
+# Personal contact data — phone numbers, etc.
+config/friends.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+# Throw-away notebooks (named like "Untitled.ipynb")
+Untitled*.ipynb
+
+# --- Selenium / WebDriver ---
+# Cached Chrome profile contains the user's WhatsApp Web login
+data/whatsapp_profile/
+# Selenium driver downloads
+.wdm/
+
+# --- Scraped / generated data (not sensitive but stale) ---
+data/*.json
+data/*.csv
+backend/data/
+backend/*.csv
+
+# --- Docker volumes ---
+postgres_data/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Temporary files ---
+*.tmp
+*.bak
+~$*

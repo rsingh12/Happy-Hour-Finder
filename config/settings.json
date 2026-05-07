@@ -1,0 +1,12 @@
+{
+  "location": "95747",
+  "search_query": "happy hour near 95747",
+  "search_radius_miles": 25,
+  "max_results": 20,
+  "preferred_days": ["Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+  "preferred_time_start": "15:00",
+  "preferred_time_end": "23:00",
+  "calendar_name": "Happy Hour",
+  "whatsapp_group_name": "Happy Hour Crew",
+  "chrome_profile_path": ""
+}

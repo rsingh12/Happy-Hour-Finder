@@ -1,0 +1,2736 @@
+[
+  {
+    "name": "Kork Sips & Snacks",
+    "address": "11771 Fair Oaks Blvd, Fair Oaks, CA 95628",
+    "latitude": 38.6654643,
+    "longitude": -121.2622849,
+    "phone": "(916) 961-0200",
+    "rating": 4.7,
+    "yelp_id": "N1OqSrncUwKiYUxk9cz-jw",
+    "yelp_url": "https://www.yelp.com/biz/kork-sips-and-snacks-fair-oaks?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.korkfairoaks.com/",
+    "maps_url": "https://www.google.com/maps/search/Kork+Sips+&+Snacks+11771+Fair+Oaks+Blvd%2C+Fair+Oaks%2C+CA+95628",
+    "_yelp_categories": [
+      "wine_bars"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://www.korkfairoaks.com/"
+    ]
+  },
+  {
+    "name": "Fleming’s Prime Steakhouse & Wine Bar",
+    "address": "1101 Galleria Blvd, Roseville, CA 95678",
+    "latitude": 38.77037,
+    "longitude": -121.26638,
+    "phone": "(916) 677-0019",
+    "rating": 4.6,
+    "yelp_id": "MHh1zVaoYrL0BCjzxcWwew",
+    "yelp_url": "https://www.yelp.com/biz/fleming-s-prime-steakhouse-and-wine-bar-roseville?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://www.flemingssteakhouse.com/locations/ca/roseville?y_source=1_MjAxNTA2OTgxMy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "maps_url": "https://www.google.com/maps/search/Fleming%E2%80%99s+Prime+Steakhouse+&+Wine+Bar+1101+Galleria+Blvd%2C+Roseville%2C+CA+95678",
+    "_yelp_categories": [
+      "wine_bars",
+      "seafood",
+      "steak"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:30",
+        "specials": [
+          "$9 handcrafted cocktails",
+          "$9 featured wines by the glass",
+          "Prime Steakhouse Sliders"
+        ],
+        "label": "Social Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://www.flemingssteakhouse.com/locations/ca/roseville?y_source=1_MjAxNTA2OTgxMy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+      "https://www.flemingssteakhouse.com/locations/ca/roseville?y_source=1_MjAxNTA2OTgxMy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D#promotions",
+      "https://www.flemingssteakhouse.com/promotions",
+      "https://www.flemingssteakhouse.com/menus/wines-and-cocktails",
+      "https://www.flemingssteakhouse.com/menus/bar",
+      "https://www.flemingssteakhouse.com/locations/ca/roseville?y_source=1_MjAxNTA2OTgxMy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D#private-dining",
+      "https://www.flemingssteakhouse.com/promotions#location-overlay",
+      "https://www.flemingssteakhouse.com/promotions/tomahawk-tuesday"
+    ]
+  },
+  {
+    "name": "Divided Sky Tavern",
+    "address": "4894 San Juan Ave, Fair Oaks, CA 95628",
+    "latitude": 38.654995398558526,
+    "longitude": -121.2918274,
+    "phone": "(916) 241-9317",
+    "rating": 4.5,
+    "yelp_id": "zGiTEYYwl__3J1c-xnAzLA",
+    "yelp_url": "https://www.yelp.com/biz/divided-sky-tavern-fair-oaks?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.dividedskytavern.com/",
+    "maps_url": "https://www.google.com/maps/search/Divided+Sky+Tavern+4894+San+Juan+Ave%2C+Fair+Oaks%2C+CA+95628",
+    "_yelp_categories": [
+      "tradamerican",
+      "gastropubs",
+      "cocktailbars"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "14:00",
+        "end_time": "18:00",
+        "specials": [],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://www.dividedskytavern.com/",
+      "http://www.dividedskytavern.com/s/DRINKS-HAPPY-HOUR.png",
+      "http://www.dividedskytavern.com/s/FOOD-HAPPY-HOUR-795w.png",
+      "http://www.dividedskytavern.com/menu-1",
+      "http://www.dividedskytavern.com/s/DST-ALL-DAY-MENU-TEST-2-wnby.pdf",
+      "http://www.dividedskytavern.com/s/BRUNCH-MENU-TEST-e354.pdf"
+    ]
+  },
+  {
+    "name": "Restaurant Josephine",
+    "address": "1226 Lincoln Way, Auburn, CA 95603",
+    "latitude": 38.89844,
+    "longitude": -121.07478,
+    "phone": "(530) 820-3523",
+    "rating": 4.5,
+    "yelp_id": "jpXAQyUUiAzV_ZO74NW-lA",
+    "yelp_url": "https://www.yelp.com/biz/restaurant-josephine-auburn?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://josephineauburn.com/",
+    "maps_url": "https://www.google.com/maps/search/Restaurant+Josephine+1226+Lincoln+Way%2C+Auburn%2C+CA+95603",
+    "_yelp_categories": [
+      "french"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Friday",
+          "Saturday"
+        ],
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "specials": [],
+        "label": "Apero Hour!",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://josephineauburn.com/"
+    ]
+  },
+  {
+    "name": "University of Beer - Roseville",
+    "address": "1516 Eureka Rd, Roseville, CA 95661",
+    "latitude": 38.7487249429551,
+    "longitude": -121.24856077055222,
+    "phone": "(916) 866-1966",
+    "rating": 4.5,
+    "yelp_id": "rDoXyaD5ht-MwBg5I16spQ",
+    "yelp_url": "https://www.yelp.com/biz/university-of-beer-roseville-roseville?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://www.theuob.com/?y_source=1_Mjc3ODc0OTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "maps_url": "https://www.google.com/maps/search/University+of+Beer+-+Roseville+1516+Eureka+Rd%2C+Roseville%2C+CA+95661",
+    "_yelp_categories": [
+      "sportsbars",
+      "burgers",
+      "tradamerican"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "$7 Thai Lettuce Cups",
+          "$8 Bone-In Wings",
+          "$7 Potstickers",
+          "$8 RR Loaded Nachos",
+          "$8 Drunken' Pig Fries",
+          "$7 Jumbo Habanero Fish Taco",
+          "$9 Firecracker Sashimi",
+          "$8 Thai Mango Salad",
+          "special price for Beers",
+          "special price for Wines",
+          "special price for House Cocktails"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "11:30",
+        "end_time": "15:00",
+        "specials": [
+          "lunch specials starting at $13.95"
+        ],
+        "label": "Lunch Specials",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://www.theuob.com/?y_source=1_Mjc3ODc0OTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "https://www.theuob.com/happy-hour",
+      "https://www.theuob.com/specials",
+      "https://www.theuob.com/lunch-specials",
+      "https://www.theuob.com/locations",
+      "https://www.theuob.com/drink"
+    ]
+  },
+  {
+    "name": "South Fork Grille El Dorado Hills",
+    "address": "4364 Town Center Blvd, Ste 124, El Dorado Hills, CA 95762",
+    "latitude": 38.650598,
+    "longitude": -121.065579,
+    "phone": "(916) 458-0206",
+    "rating": 4.4,
+    "yelp_id": "oreuh_crrYMpNxUt3upKcg",
+    "yelp_url": "https://www.yelp.com/biz/south-fork-grille-el-dorado-hills?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://southforkrestaurants.com/?utm_source=gmb_sfg&utm_medium=organic&utm_campaign=GMB_Listing",
+    "maps_url": "https://www.google.com/maps/search/South+Fork+Grille+El+Dorado+Hills+4364+Town+Center+Blvd%2C+Ste+124%2C+El+Dorado+Hills%2C+CA+95762",
+    "_yelp_categories": [
+      "newamerican",
+      "breakfast_brunch",
+      "steak"
+    ],
+    "happy_hours": [
+      {
+        "raw_text": "Happy Hours, South Fork Grille",
+        "context": "Borjon, Amador County 12 Barbera Happy Hours, South Fork Grille El Dorado Hills Monday-Friday 3pm – 6pm in the Bar & Lounge",
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [],
+        "source": "website_regex"
+      }
+    ],
+    "visited_pages": [
+      "https://southforkrestaurants.com/?utm_source=gmb_sfg&utm_medium=organic&utm_campaign=GMB_Listing",
+      "https://southforkrestaurants.com/happy-hour-menu/",
+      "https://southforkrestaurants.com/drink-menu/",
+      "https://southforkrestaurants.com/lunch-menu/",
+      "https://southforkrestaurants.com/dinner-menu/",
+      "https://southforkrestaurants.com/dessert-menu/",
+      "https://southforkrestaurants.com/happy-hour-menu/#content",
+      "https://southforkrestaurants.com/drink-menu/#content"
+    ]
+  },
+  {
+    "name": "Brahma Bar and Grill",
+    "address": "10239 Fair Oaks Blvd, Ste D, Fair Oaks, CA 95628",
+    "latitude": 38.643391,
+    "longitude": -121.270553,
+    "phone": "(916) 534-7451",
+    "rating": 4.4,
+    "yelp_id": "64oM65lMmdJvqjknZaaauA",
+    "yelp_url": "https://www.yelp.com/biz/brahma-bar-and-grill-fair-oaks?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.brahmabarandgrill.com/",
+    "maps_url": "https://www.google.com/maps/search/Brahma+Bar+and+Grill+10239+Fair+Oaks+Blvd%2C+Ste+D%2C+Fair+Oaks%2C+CA+95628",
+    "_yelp_categories": [
+      "newamerican",
+      "bars"
+    ],
+    "happy_hours": [
+      {
+        "raw_text": "/T (Join us for Happy Hour!  Tuesday through Friday from 2pm to 5pm!  Food and Drink specials are available!)",
+        "context": "<< /Type /StructElem /S /H6 /T (Join us for Happy Hour!  Tuesday through Friday from 2pm to 5pm!  Food and Drink specials are available!) /E (Join us for Happy Hour!  Tuesday through Friday from 2pm to 5pm!  Food and Drink specials are available!) /Pg 8 0 R /K [24]",
+        "days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "14:00",
+        "end_time": "17:00",
+        "specials": [],
+        "source": "website_regex"
+      }
+    ],
+    "visited_pages": [
+      "http://www.brahmabarandgrill.com/",
+      "http://www.brahmabarandgrill.com/s/Happy-Hour-and-Lunch-Specials-0852025.pdf",
+      "http://www.brahmabarandgrill.com/s/Brahma-Core-Menu-Legal-0852025.pdf",
+      "http://www.brahmabarandgrill.com/s/Christmas_2025_Kids_Menu.pdf",
+      "http://www.brahmabarandgrill.com/menu",
+      "http://www.brahmabarandgrill.com/visitus"
+    ]
+  },
+  {
+    "name": "Sully's Bar and Grill",
+    "address": "4451 Pacific St, Rocklin, CA 95677",
+    "latitude": 38.80046,
+    "longitude": -121.22437,
+    "phone": "(916) 630-5516",
+    "rating": 4.4,
+    "yelp_id": "aJG6-NJ4wtBbdnz-OkAwaA",
+    "yelp_url": "https://www.yelp.com/biz/sullys-bar-and-grill-rocklin?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://sullysbarngrill.com/",
+    "maps_url": "https://www.google.com/maps/search/Sully's+Bar+and+Grill+4451+Pacific+St%2C+Rocklin%2C+CA+95677",
+    "_yelp_categories": [
+      "bars",
+      "tradamerican",
+      "sandwiches"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "$1 off draft beer",
+          "$1 off well drinks",
+          "$1 off wine",
+          "$2 street tacos",
+          "$8 half order wings",
+          "$10 tostadas",
+          "$10 sweet potato fries",
+          "$10 bean dip"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://sullysbarngrill.com/",
+      "https://sullysbarngrill.com/specials/",
+      "https://sullysbarngrill.com/drink-menu/",
+      "https://sullysbarngrill.com/food-menu/",
+      "https://sullysbarngrill.com/wp-content/uploads/2021/12/SullysDigitalUnderground-e1639936267367.jpg",
+      "https://sullysbarngrill.com/specials/#content",
+      "https://sullysbarngrill.com/drink-menu/#content",
+      "https://sullysbarngrill.com/food-menu/#content"
+    ]
+  },
+  {
+    "name": "Dog Haus Biergarten",
+    "address": "1501 Blue Oaks Blvd, Ste 140, Roseville, CA 95747",
+    "latitude": 38.795086230442216,
+    "longitude": -121.32655686053964,
+    "phone": "(916) 846-7699",
+    "rating": 4.3,
+    "yelp_id": "V3Y0ue67dI1qVd45G9tb1w",
+    "yelp_url": "https://www.yelp.com/biz/dog-haus-biergarten-roseville?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://roseville.doghaus.com/",
+    "maps_url": "https://www.google.com/maps/search/Dog+Haus+Biergarten+1501+Blue+Oaks+Blvd%2C+Ste+140%2C+Roseville%2C+CA+95747",
+    "_yelp_categories": [
+      "newamerican",
+      "hotdog",
+      "sportsbars"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "$1 off (2) Cheeseburger Sliders",
+          "$1 off (2) Roadside Sliders",
+          "$2 off Draft Beer & Wine",
+          "$2 off Loaded Tots",
+          "$3 off Wings",
+          "$4 off (6-pack) Chopped Cheese Sliders"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://roseville.doghaus.com/",
+      "https://roseville.doghaus.com/#happyhour",
+      "https://roseville.doghaus.com/locations/ca/roseville",
+      "https://roseville.doghaus.com/locations/ca",
+      "https://roseville.doghaus.com/find-a-location"
+    ]
+  },
+  {
+    "name": "Riley’s on Sutter",
+    "address": "702 Sutter St, Folsom, CA 95630",
+    "latitude": 38.677935,
+    "longitude": -121.177012,
+    "phone": "(916) 673-9123",
+    "rating": 4.3,
+    "yelp_id": "-N7cvQcx2PAmsGQLUWmUjg",
+    "yelp_url": "https://www.yelp.com/biz/riley-s-on-sutter-folsom?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://www.rileysonsutter.com/",
+    "maps_url": "https://www.google.com/maps/search/Riley%E2%80%99s+on+Sutter+702+Sutter+St%2C+Folsom%2C+CA+95630",
+    "_yelp_categories": [
+      "salad",
+      "beer_and_wine",
+      "tradamerican"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Tuesday"
+        ],
+        "start_time": "16:00",
+        "end_time": "21:00",
+        "specials": [
+          "$8 Cheese Quesadilla",
+          "$8 Fried Pickle Chips",
+          "$8 Onion Ring Basket",
+          "$9 Tortilla Chip Duo",
+          "$9 Mini Loaded Tots",
+          "$9 Mini Nachos",
+          "$10 BBQ Pulled Pork Sliders",
+          "$10 Bacon Cheeseburger Sliders",
+          "$10 6 Bone-In or Boneless Wings",
+          "$11 Pepperoni Pizza",
+          "$11 Mexican Street Corn Dip",
+          "$11 Quesa Birria Flautas",
+          "$5 Blue Moon Bottle",
+          "$5 White Claw Seltzer",
+          "$5 Coors Light Pint",
+          "$5 Corona Bottle",
+          "$6 Choice of 9 Craft Beers - Pint",
+          "$6 House Pinot Grigio",
+          "$6 House Zinfandel",
+          "$7 Well Drinks",
+          "$7 House Chardonnay",
+          "$7 House Cabernet Sauvignon",
+          "$7 Berryessa DIPA Pint",
+          "$7 Peanut Butter Milk Stout Nitro Pint",
+          "$9 House Margarita on Rocks",
+          "$9 Transfuzion Cocktail",
+          "$9 Guava Paloma",
+          "$9 Espresso Martini",
+          "$9 Blackberry Sour"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "17:00",
+        "specials": [
+          "$8 Cheese Quesadilla",
+          "$8 Fried Pickle Chips",
+          "$8 Onion Ring Basket",
+          "$9 Tortilla Chip Duo",
+          "$9 Mini Loaded Tots",
+          "$9 Mini Nachos",
+          "$10 BBQ Pulled Pork Sliders",
+          "$10 Bacon Cheeseburger Sliders",
+          "$10 6 Bone-In or Boneless Wings",
+          "$11 Pepperoni Pizza",
+          "$11 Mexican Street Corn Dip",
+          "$11 Quesa Birria Flautas",
+          "$5 Blue Moon Bottle",
+          "$5 White Claw Seltzer",
+          "$5 Coors Light Pint",
+          "$5 Corona Bottle",
+          "$6 Choice of 9 Craft Beers - Pint",
+          "$6 House Pinot Grigio",
+          "$6 House Zinfandel",
+          "$7 Well Drinks",
+          "$7 House Chardonnay",
+          "$7 House Cabernet Sauvignon",
+          "$7 Berryessa DIPA Pint",
+          "$7 Peanut Butter Milk Stout Nitro Pint",
+          "$9 House Margarita on Rocks",
+          "$9 Transfuzion Cocktail",
+          "$9 Guava Paloma",
+          "$9 Espresso Martini",
+          "$9 Blackberry Sour"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://www.rileysonsutter.com/",
+      "https://www.rileysonsutter.com/happy-hour",
+      "https://www.rileysonsutter.com/menu"
+    ]
+  },
+  {
+    "name": "Rose Park Bistro",
+    "address": "1017 Galleria Blvd, Ste 160, Roseville, CA 95678",
+    "latitude": 38.7675725,
+    "longitude": -121.2702803301099,
+    "phone": "(916) 474-5658",
+    "rating": 4.3,
+    "yelp_id": "gaNa1dnicP2iBncLEB0ehg",
+    "yelp_url": "https://www.yelp.com/biz/rose-park-bistro-roseville?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://www.roseparkbistro.com/",
+    "maps_url": "https://www.google.com/maps/search/Rose+Park+Bistro+1017+Galleria+Blvd%2C+Ste+160%2C+Roseville%2C+CA+95678",
+    "_yelp_categories": [
+      "cocktailbars",
+      "newamerican",
+      "seafood"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by vision from https://static.wixstatic.com/media/5bf67a_4356890a47294b938d261576b2894d7b~mv2.png/v1/fill/w_295,h_295,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Happy%20Hour%20Everyday.png]",
+        "source": "vision"
+      }
+    ],
+    "visited_pages": [
+      "https://www.roseparkbistro.com/",
+      "https://www.roseparkbistro.com/happy-hour",
+      "https://www.roseparkbistro.com/menu"
+    ]
+  },
+  {
+    "name": "Bar 101 Eats & Drinks",
+    "address": "101 Main St, Roseville, CA 95678",
+    "latitude": 38.75182,
+    "longitude": -121.2856,
+    "phone": "(916) 774-0505",
+    "rating": 4.3,
+    "yelp_id": "rf5F2y5j1oUMaE0J5ZQaDQ",
+    "yelp_url": "https://www.yelp.com/biz/bar-101-eats-and-drinks-roseville?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://www.bar101roseville.com/",
+    "maps_url": "https://www.google.com/maps/search/Bar+101+Eats+&+Drinks+101+Main+St%2C+Roseville%2C+CA+95678",
+    "_yelp_categories": [
+      "sportsbars",
+      "newamerican",
+      "gastropubs"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "$10 Pulled Pork sliders (2)",
+          "$10 Buffalo Wings",
+          "$8 chicken strips",
+          "$8 Cheesy garlic bread",
+          "$8 house salad",
+          "$8 Garlic Fries",
+          "$7 Revision IPA 16oz",
+          "$7 805 blonde ale 16oz",
+          "$7 farmers light 16oz",
+          "$8 Bogle Chardonnay",
+          "$8 Clos Du Bois Cabernet sauvignon",
+          "$1 OFF well drinks"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://www.bar101roseville.com/",
+      "https://www.bar101roseville.com/menu/happy-hour/",
+      "https://www.bar101roseville.com/location/bar-101-eats-drinks/",
+      "https://www.bar101roseville.com/menu/cocktails/",
+      "https://www.bar101roseville.com/menus/",
+      "https://www.bar101roseville.com/menu/wines/",
+      "https://www.bar101roseville.com/menu/happy-hour/#main-content",
+      "https://www.bar101roseville.com/location/bar-101-eats-drinks/#main-content"
+    ]
+  },
+  {
+    "name": "Shangri La",
+    "address": "7960 Winding Way, Fair Oaks, CA 95628",
+    "latitude": 38.64382,
+    "longitude": -121.27078,
+    "phone": "(916) 241-9473",
+    "rating": 4.3,
+    "yelp_id": "kLyzQ4-J9hNQ_WP1l3biew",
+    "yelp_url": "https://www.yelp.com/biz/shangri-la-fair-oaks?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://www.shangrilafairoaks.com/",
+    "maps_url": "https://www.google.com/maps/search/Shangri+La+7960+Winding+Way%2C+Fair+Oaks%2C+CA+95628",
+    "_yelp_categories": [
+      "newamerican",
+      "cocktailbars"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "specials": [
+          "$2 off all Beer, Wine & Shang Cocktails",
+          "25% off Wine Bottles"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://www.shangrilafairoaks.com/",
+      "https://www.shangrilafairoaks.com/menus",
+      "https://www.shangrilafairoaks.com/_files/ugd/16c9cb_98d24499a49f461ca9425f37dfacf9ab.pdf"
+    ]
+  },
+  {
+    "name": "ELDO",
+    "address": "3909 Park Dr, El Dorado Hills, CA 95762",
+    "latitude": 38.65751543034768,
+    "longitude": -121.0700667,
+    "phone": "(530) 618-8986",
+    "rating": 4.3,
+    "yelp_id": "ztSZt56l6cHiaaqTeZW04w",
+    "yelp_url": "https://www.yelp.com/biz/eldo-el-dorado-hills-3?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.eldochophouse.com/",
+    "maps_url": "https://www.google.com/maps/search/ELDO+3909+Park+Dr%2C+El+Dorado+Hills%2C+CA+95762",
+    "_yelp_categories": [
+      "seafood",
+      "venues",
+      "newamerican"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "start_time": "15:00",
+        "end_time": "17:00",
+        "specials": [
+          "$10 cocktails",
+          "wine steals",
+          "chef-driven bites"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Friday",
+          "Saturday"
+        ],
+        "start_time": "21:00",
+        "end_time": "00:00",
+        "specials": [],
+        "label": "Late Night Bar",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://www.eldochophouse.com/",
+      "http://www.eldochophouse.com/menu",
+      "http://www.eldochophouse.com/menu.html"
+    ]
+  },
+  {
+    "name": "Milestone",
+    "address": "4359 Town Center Blvd, Ste 116, El Dorado Hills, CA 95672",
+    "latitude": 38.6511578052105,
+    "longitude": -121.06558370399122,
+    "phone": "(916) 934-0790",
+    "rating": 4.2,
+    "yelp_id": "L0tYtmGBzmBjmvbLO-Toag",
+    "yelp_url": "https://www.yelp.com/biz/milestone-el-dorado-hills?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.milestoneedh.com/",
+    "maps_url": "https://www.google.com/maps/search/Milestone+4359+Town+Center+Blvd%2C+Ste+116%2C+El+Dorado+Hills%2C+CA+95672",
+    "_yelp_categories": [
+      "tradamerican",
+      "breakfast_brunch",
+      "cocktailbars"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "17:00",
+        "specials": [],
+        "label": "Mid-Day",
+        "confidence": "medium",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://www.milestoneedh.com/",
+      "https://www.milestoneedh.com/menus",
+      "https://www.milestoneedh.com/_files/ugd/26bdef_3545d4f7f940459f86234bebbe0c6335.pdf"
+    ]
+  },
+  {
+    "name": "Station 16",
+    "address": "9625 E Stockton Blvd, Elk Grove, CA 95624",
+    "latitude": 38.40774,
+    "longitude": -121.384294,
+    "phone": "(916) 479-9775",
+    "rating": 4.2,
+    "yelp_id": "nQXz6B8JgEPWRSbzGfLMCg",
+    "yelp_url": "https://www.yelp.com/biz/station-16-elk-grove-2?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://station16restaurant.com/",
+    "maps_url": "https://www.google.com/maps/search/Station+16+9625+E+Stockton+Blvd%2C+Elk+Grove%2C+CA+95624",
+    "_yelp_categories": [
+      "cocktailbars",
+      "breakfast_brunch",
+      "seafood"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "$2 Blue Points oysters",
+          "$3 off signature cocktails",
+          "$4 off starters",
+          "$5 sangrias",
+          "$5 beers",
+          "$5 house red/white wine"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Friday",
+          "Saturday"
+        ],
+        "start_time": "21:00",
+        "end_time": "00:00",
+        "specials": [
+          "$2 Blue Points oysters",
+          "$3 off signature cocktails",
+          "$4 off starters",
+          "$5 sangrias",
+          "$5 beers",
+          "$5 house red/white wine"
+        ],
+        "label": "Late Night",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://station16restaurant.com/",
+      "https://station16restaurant.com/menu",
+      "https://station16restaurant.com/order-online-from-elk-grove-location"
+    ]
+  },
+  {
+    "name": "Casa Lola",
+    "address": "1132 16th St, Sacramento, CA 95814",
+    "latitude": 38.57611098924037,
+    "longitude": -121.4862773,
+    "phone": "(916) 446-0888",
+    "rating": 4.2,
+    "yelp_id": "GQ8SqibIN3RrPXMhw6Fjjg",
+    "yelp_url": "https://www.yelp.com/biz/casa-lola-sacramento?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://www.vivacasalola.com/",
+    "maps_url": "https://www.google.com/maps/search/Casa+Lola+1132+16th+St%2C+Sacramento%2C+CA+95814",
+    "_yelp_categories": [
+      "mexican",
+      "newmexican",
+      "latin"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "$1 off cervezas grandes",
+          "$2 off margaritas, wells & vinos",
+          "$3 off cócteles",
+          "½ off para empezar"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Tuesday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "$5 tacos"
+        ],
+        "label": "Taco Tuesday",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://www.vivacasalola.com/",
+      "https://www.vivacasalola.com/happenings/",
+      "https://www.vivacasalola.com/menu/",
+      "https://www.vivacasalola.com/wp-content/uploads/2026/04/CL_MothersDay_5x7Menu-2.pdf",
+      "https://www.vivacasalola.com/wp-content/uploads/2026/04/CasaLola_Cinco_De_Mayo_MENU_1080x1350-1.jpg",
+      "https://www.vivacasalola.com/wp-content/uploads/2026/02/CasaLola_Drinks.pdf",
+      "https://www.vivacasalola.com/menu/#content-2e34ccb69fa436de7177",
+      "https://www.vivacasalola.com/menu/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwNjMiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D"
+    ]
+  },
+  {
+    "name": "Sienna Restaurant Roseville",
+    "address": "1480 Eureka Rd, Roseville, CA 95661",
+    "latitude": 38.75168,
+    "longitude": -121.25312,
+    "phone": "(916) 771-4700",
+    "rating": 4.1,
+    "yelp_id": "kAOCj8F3JjD0bbk5L-jWJA",
+    "yelp_url": "https://www.yelp.com/biz/sienna-restaurant-roseville-roseville-4?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://siennarestaurants.com/?utm_source=gmb_sienna_roseville&utm_medium=organic&utm_campaign=GMB_Listing",
+    "maps_url": "https://www.google.com/maps/search/Sienna+Restaurant+Roseville+1480+Eureka+Rd%2C+Roseville%2C+CA+95661",
+    "_yelp_categories": [
+      "newamerican",
+      "breakfast_brunch",
+      "steak"
+    ],
+    "happy_hours": [
+      {
+        "raw_text": "Happy Hours – Roseville",
+        "context": "Caymus, California 16 Cabernet Sauvignon Happy Hours – Roseville Monday-Friday 3pm-6pm Looking for gluten-free options? Sienna Roseville offers a dedicated gluten-free menu",
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [],
+        "source": "website_regex"
+      }
+    ],
+    "visited_pages": [
+      "https://siennarestaurants.com/?utm_source=gmb_sienna_roseville&utm_medium=organic&utm_campaign=GMB_Listing",
+      "https://siennarestaurants.com/roseville/roseville-happy-hour/",
+      "https://siennarestaurants.com/el-dorado-hills/edh-happy-hour/",
+      "https://siennarestaurants.com/roseville/drink-menu-roseville/",
+      "https://siennarestaurants.com/el-dorado-hills/el-dorado-hills-drink-menu/",
+      "https://siennarestaurants.com/roseville/roseville-childrens-menu/",
+      "https://siennarestaurants.com/roseville/roseville-happy-hour/#content",
+      "https://siennarestaurants.com/el-dorado-hills/edh-happy-hour/#content"
+    ]
+  },
+  {
+    "name": "House of Oliver",
+    "address": "3992 Douglas Blvd, Ste 140, Roseville, CA 95661",
+    "latitude": 38.7434299,
+    "longitude": -121.22714,
+    "phone": "(916) 773-9463",
+    "rating": 4.1,
+    "yelp_id": "JDJI55_ZLI7Cxl9EmRJAXw",
+    "yelp_url": "https://www.yelp.com/biz/house-of-oliver-roseville?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://houseofoliver.com/",
+    "maps_url": "https://www.google.com/maps/search/House+of+Oliver+3992+Douglas+Blvd%2C+Ste+140%2C+Roseville%2C+CA+95661",
+    "_yelp_categories": [
+      "jazzandblues",
+      "newamerican",
+      "cocktailbars"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "$5 Beer",
+          "Wine & Cocktail Specials",
+          "Food Specials"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://houseofoliver.com/",
+      "http://houseofoliver.com/specials",
+      "http://houseofoliver.com/drink-menu",
+      "https://houseofoliver.com/-party?source=pop_up&spot_id=91584&destination=private_parties&promotion=private_parties",
+      "http://houseofoliver.com/food-menu",
+      "http://houseofoliver.com/specials#content",
+      "http://houseofoliver.com/drink-menu?menu_id=1340692",
+      "http://houseofoliver.com/drink-menu?menu_id=1337046"
+    ]
+  },
+  {
+    "name": "kitchen747",
+    "address": "2320 Pleasant Grove Blvd, Roseville, CA 95747",
+    "latitude": 38.772167,
+    "longitude": -121.368291,
+    "phone": "(916) 540-7999",
+    "rating": 4.1,
+    "yelp_id": "8j_qSou6cbc_eNnVqhjW7A",
+    "yelp_url": "https://www.yelp.com/biz/kitchen747-roseville?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.kitchen747.com/",
+    "maps_url": "https://www.google.com/maps/search/kitchen747+2320+Pleasant+Grove+Blvd%2C+Roseville%2C+CA+95747",
+    "_yelp_categories": [
+      "pizza",
+      "desserts",
+      "tradamerican"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "14:00",
+        "end_time": "17:00",
+        "specials": [
+          "$1 off all pints of beer",
+          "$2 off all 6oz pours of wine (excluding sparkling)",
+          "$2 off all specialty cocktails and well drinks"
+        ],
+        "label": "happy hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "11:00",
+        "end_time": "14:00",
+        "specials": [],
+        "label": "lunch specials",
+        "confidence": "medium",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://www.kitchen747.com/",
+      "http://www.kitchen747.com/drinks/",
+      "http://www.kitchen747.com/food/",
+      "http://www.kitchen747.com/drinks/#content",
+      "http://www.kitchen747.com/food/#happy-hour",
+      "http://www.kitchen747.com/food/#spring-specials",
+      "http://www.kitchen747.com/food/#lunch-specials"
+    ]
+  },
+  {
+    "name": "Twisted Track Station",
+    "address": "1201 R St, Sacramento, CA 95811",
+    "latitude": 38.570904,
+    "longitude": -121.494361,
+    "phone": "(916) 701-5129",
+    "rating": 4.9,
+    "yelp_id": "oH-YqFlLcrSD0rVe2SDeng",
+    "yelp_url": "https://www.yelp.com/biz/twisted-track-station-sacramento-2?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://www.twistedtrackstation.life/",
+    "maps_url": "https://www.google.com/maps/search/Twisted+Track+Station+1201+R+St%2C+Sacramento%2C+CA+95811",
+    "_yelp_categories": [
+      "bars",
+      "coffee",
+      "burgers"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "start_time": "14:00",
+        "end_time": "18:00",
+        "specials": [],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by vision from https://images.squarespace-cdn.com/content/v1/68166acf4fbde11019cff1bd/b60d4b26-5e08-4e25-a8b9-b5d995c50f8b/20260406+Bar+Final+%232.png]",
+        "source": "vision"
+      }
+    ],
+    "visited_pages": [
+      "https://www.twistedtrackstation.life/",
+      "https://www.twistedtrackstation.life/menu",
+      "https://www.twistedtrackstation.life/main-1",
+      "https://www.twistedtrackstation.life/main",
+      "https://www.twistedtrackstation.life/menu#page"
+    ]
+  },
+  {
+    "name": "The Lounge",
+    "address": "130 Maple St, Auburn, CA 95603",
+    "latitude": 38.897295,
+    "longitude": -121.076771,
+    "phone": "(530) 537-2555",
+    "rating": 4.7,
+    "yelp_id": "zg2fzhiIPjE1mgmrzEZmCQ",
+    "yelp_url": "https://www.yelp.com/biz/the-lounge-auburn?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://theloungeauburn.com/",
+    "maps_url": "https://www.google.com/maps/search/The+Lounge+130+Maple+St%2C+Auburn%2C+CA+95603",
+    "_yelp_categories": [
+      "cocktailbars",
+      "seafood"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "specials": [
+          "$2.00 off all marked items"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://theloungeauburn.com/",
+      "http://theloungeauburn.com/specials",
+      "http://theloungeauburn.com/drink-menu",
+      "https://theloungeauburn.com/-party?source=pop_up&spot_id=642708&destination=private_parties&promotion=private_parties",
+      "http://theloungeauburn.com/food-menu",
+      "http://theloungeauburn.com/specials#content",
+      "http://theloungeauburn.com/drink-menu?menu_id=1268269",
+      "http://theloungeauburn.com/drink-menu#content"
+    ]
+  },
+  {
+    "name": "Almighty Bistro",
+    "address": "4355 Town Center Blvd, Ste 114, El Dorado Hills, CA 95762",
+    "latitude": 38.65104,
+    "longitude": -121.06689,
+    "phone": "(916) 510-1204",
+    "rating": 4.6,
+    "yelp_id": "lZukrUpjJl2zwIy5rqMEKQ",
+    "yelp_url": "https://www.yelp.com/biz/almighty-bistro-el-dorado-hills?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.almightybistro.com/",
+    "maps_url": "https://www.google.com/maps/search/Almighty+Bistro+4355+Town+Center+Blvd%2C+Ste+114%2C+El+Dorado+Hills%2C+CA+95762",
+    "_yelp_categories": [
+      "gluten_free",
+      "newamerican"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "start_time": "19:30",
+        "end_time": "22:00",
+        "specials": [],
+        "label": "Speakeasy",
+        "confidence": "medium",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://www.almightybistro.com/",
+      "https://www.almightybistro.com/_files/ugd/7587c2_d080ddbee9a5482385655adb51932cdf.pdf",
+      "https://www.almightybistro.com/_files/ugd/7587c2_bd7e27e292fb4ae39c0e3df79792a2ca.pdf"
+    ]
+  },
+  {
+    "name": "Bacchus House Wine Bar & Bistro",
+    "address": "1004 E Bidwell St, Ste 100, Folsom, CA 95630",
+    "latitude": 38.6705577,
+    "longitude": -121.154999,
+    "phone": "(916) 984-7500",
+    "rating": 4.5,
+    "yelp_id": "TOGGMRZeprv7-LAHpDXn4g",
+    "yelp_url": "https://www.yelp.com/biz/bacchus-house-wine-bar-and-bistro-folsom?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.bacchushousebistro.com/",
+    "maps_url": "https://www.google.com/maps/search/Bacchus+House+Wine+Bar+&+Bistro+1004+E+Bidwell+St%2C+Ste+100%2C+Folsom%2C+CA+95630",
+    "_yelp_categories": [
+      "newamerican",
+      "wine_bars"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "16:00",
+        "end_time": "18:00",
+        "specials": [],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://www.bacchushousebistro.com/"
+    ]
+  },
+  {
+    "name": "Manderes",
+    "address": "1004 E Bidwell St, Ste 600, Folsom, CA 95630",
+    "latitude": 38.67081,
+    "longitude": -121.15538,
+    "phone": "(916) 986-9655",
+    "rating": 4.4,
+    "yelp_id": "kR3AaUJnr0ZmRbN4c-dJIQ",
+    "yelp_url": "https://www.yelp.com/biz/manderes-folsom?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://manderes.com/",
+    "maps_url": "https://www.google.com/maps/search/Manderes+1004+E+Bidwell+St%2C+Ste+600%2C+Folsom%2C+CA+95630",
+    "_yelp_categories": [
+      "bars",
+      "tradamerican",
+      "salad"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "14:00",
+        "end_time": "17:00",
+        "specials": [
+          "$2 off draft beer (excluding specialty beers)",
+          "$8 William Hill Chardonnay",
+          "$8 Leese Fitch Cabernet",
+          "$8 fried zucchini",
+          "$8 pulled pork sliders (2)",
+          "$11 flatbread pizzas",
+          "$9 Manderes wings",
+          "$7 brewhouse fries",
+          "$8 beer-battered onion rings"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://manderes.com/",
+      "https://manderes.com/menu/",
+      "https://manderes.com/menu/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU1IiwidG9nZ2xlIjp0cnVlfQ%3D%3D",
+      "https://manderes.com/menu/#elementor-action%3Aaction%3Dpopup%3Aclose%26settings%3DeyJkb19ub3Rfc2hvd19hZ2FpbiI6IiJ9",
+      "https://manderes.com/menu/#content"
+    ]
+  },
+  {
+    "name": "Alaro Craft Brewery, Restaurant & Cocktail Bar",
+    "address": "2004 Capitol Ave, Sacramento, CA 95811",
+    "latitude": 38.573068,
+    "longitude": -121.4811,
+    "phone": "(916) 436-7711",
+    "rating": 4.3,
+    "yelp_id": "9s-PNE7hYsTFuIfbnp_IUw",
+    "yelp_url": "https://www.yelp.com/biz/alaro-craft-brewery-restaurant-and-cocktail-bar-sacramento?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://alarobrewing.com/",
+    "maps_url": "https://www.google.com/maps/search/Alaro+Craft+Brewery%2C+Restaurant+&+Cocktail+Bar+2004+Capitol+Ave%2C+Sacramento%2C+CA+95811",
+    "_yelp_categories": [
+      "breweries",
+      "tapasmallplates",
+      "newamerican"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "14:00",
+        "end_time": "17:00",
+        "specials": [
+          "$5 all pints",
+          "$6 sangria",
+          "$8 select wines",
+          "$8 El Corazon Margarita",
+          "$12 One & One (beer & a shot)",
+          "$5 bites",
+          "$6-7 tapas",
+          "$6-7 seafood tins"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://alarobrewing.com/",
+      "https://alarobrewing.com/menu/#cocktails",
+      "https://alarobrewing.com/menu",
+      "http://alarobrewing.com/menu/",
+      "https://alarobrewing.com/menu/#wine-list",
+      "https://alarobrewing.com/menu/#beers-on-tap",
+      "https://alarobrewing.com/menu/#hours",
+      "http://alarobrewing.com/menu/#cocktails"
+    ]
+  },
+  {
+    "name": "Gaslight Company",
+    "address": "718 Sutter St, Ste 200, Folsom, CA 95630",
+    "latitude": 38.67757,
+    "longitude": -121.17735,
+    "phone": "(916) 358-9447",
+    "rating": 4.3,
+    "yelp_id": "NDYRY9vZ19e8IEtFkiQdLQ",
+    "yelp_url": "https://www.yelp.com/biz/gaslight-company-folsom-2?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://gaslightcofolsom.com/",
+    "maps_url": "https://www.google.com/maps/search/Gaslight+Company+718+Sutter+St%2C+Ste+200%2C+Folsom%2C+CA+95630",
+    "_yelp_categories": [
+      "newamerican",
+      "cocktailbars",
+      "venues"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "$2 off entire menu"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Friday"
+        ],
+        "start_time": "14:00",
+        "end_time": "18:00",
+        "specials": [
+          "$2 off entire menu"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://gaslightcofolsom.com/"
+    ]
+  },
+  {
+    "name": "Mojo’s Lounge & Kitchen428 Restaurant",
+    "address": "428 1st St, Woodland, CA 95695",
+    "latitude": 38.67670713822636,
+    "longitude": -121.77338755674236,
+    "phone": "(530) 661-0428",
+    "rating": 4.3,
+    "yelp_id": "Vzu6AYsu3Iof5vgx2bqRdQ",
+    "yelp_url": "https://www.yelp.com/biz/mojo-s-lounge-and-kitchen428-restaurant-woodland?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.mojoskitchen428.com/",
+    "maps_url": "https://www.google.com/maps/search/Mojo%E2%80%99s+Lounge+&+Kitchen428+Restaurant+428+1st+St%2C+Woodland%2C+CA+95695",
+    "_yelp_categories": [
+      "newamerican",
+      "lounges",
+      "breakfast_brunch"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://www.mojoskitchen428.com/"
+    ]
+  },
+  {
+    "name": "The Green Room",
+    "address": "3839 J St, Sacramento, CA 95816",
+    "latitude": 38.57039788511919,
+    "longitude": -121.45545390338684,
+    "phone": "(916) 475-1801",
+    "rating": 4.2,
+    "yelp_id": "CkeFvRxL7_xnVmBKY2p7mQ",
+    "yelp_url": "https://www.yelp.com/biz/the-green-room-sacramento-2?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://thegreenroomsac.com/",
+    "maps_url": "https://www.google.com/maps/search/The+Green+Room+3839+J+St%2C+Sacramento%2C+CA+95816",
+    "_yelp_categories": [
+      "lounges",
+      "cocktailbars",
+      "tapasmallplates"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "start_time": "16:00",
+        "end_time": "18:00",
+        "specials": [
+          "$13 Maple Old Fashioned",
+          "$11 House Spicy Margarita",
+          "$11 Salty Pup",
+          "$11 Coquito",
+          "$9 Cocktail Du Jour",
+          "$2 off well cocktails",
+          "$6 rotating draft beers",
+          "$5 Samuel Smith IPA bottle",
+          "$3 Porchlite Everyday Lager",
+          "$8 house red",
+          "$8 house white",
+          "$9 sangria",
+          "$5 bar nuts",
+          "$5 olives",
+          "$9 wings",
+          "$7 house fries",
+          "$7 garlic fries",
+          "$10 shrimp cocktail",
+          "$3 slow roasted pork tacos",
+          "$12 golden burger",
+          "$8 cheese quesadilla",
+          "$10 chicken sandwich sliders"
+        ],
+        "label": "Golden Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://thegreenroomsac.com/",
+      "https://thegreenroomsac.com/menu"
+    ]
+  },
+  {
+    "name": "University of Beer - Rocklin",
+    "address": "6815 Lonetree Blvd, Ste 101, Rocklin, CA 95765",
+    "latitude": 38.79789,
+    "longitude": -121.2918,
+    "phone": "(916) 866-1949",
+    "rating": 4.2,
+    "yelp_id": "146WpPiD4c5FIKirF-fHfg",
+    "yelp_url": "https://www.yelp.com/biz/university-of-beer-rocklin-rocklin-4?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://www.theuob.com/?y_source=1_OTIxNDA5MDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "maps_url": "https://www.google.com/maps/search/University+of+Beer+-+Rocklin+6815+Lonetree+Blvd%2C+Ste+101%2C+Rocklin%2C+CA+95765",
+    "_yelp_categories": [
+      "sportsbars",
+      "newamerican",
+      "burgers"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "$7 Thai Lettuce Cups",
+          "$8 Bone-In Wings",
+          "$7 Potstickers",
+          "$8 RR Loaded Nachos",
+          "$8 Drunken' Pig Fries",
+          "$7 Jumbo Habanero Fish Taco",
+          "$9 Firecracker Sashimi",
+          "$8 Thai Mango Salad",
+          "special price for Beers",
+          "special price for Wines",
+          "special price for House Cocktails"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "11:30",
+        "end_time": "15:00",
+        "specials": [
+          "lunch specials starting at $13.95"
+        ],
+        "label": "Lunch Specials",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://www.theuob.com/?y_source=1_OTIxNDA5MDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "https://www.theuob.com/happy-hour",
+      "https://www.theuob.com/specials",
+      "https://www.theuob.com/lunch-specials",
+      "https://www.theuob.com/locations",
+      "https://www.theuob.com/drink"
+    ]
+  },
+  {
+    "name": "Il Forno Classico",
+    "address": "2121 Golden Centre Ln, Ste 10, Rancho Cordova, CA 95670",
+    "latitude": 38.6261349925909,
+    "longitude": -121.263836324215,
+    "phone": "(916) 858-0651",
+    "rating": 4.0,
+    "yelp_id": "MA4Pp1Mbjgs4U4PRkMKmeA",
+    "yelp_url": "https://www.yelp.com/biz/il-forno-classico-rancho-cordova?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.ilfornoclassico.com/",
+    "maps_url": "https://www.google.com/maps/search/Il+Forno+Classico+2121+Golden+Centre+Ln%2C+Ste+10%2C+Rancho+Cordova%2C+CA+95670",
+    "_yelp_categories": [
+      "italian",
+      "bars",
+      "seafood"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "17:00",
+        "specials": [
+          "Calamari Fritti",
+          "Fresh Hot Potato Chips",
+          "Pesto Risotto Balls",
+          "Oven Roasted Artichoke",
+          "Chicken Wings",
+          "Oven Roasted Meatballs",
+          "Italian Beers",
+          "Campario",
+          "Aperol",
+          "Select Cynar Spritz",
+          "Details Cabernet Sauvignon",
+          "Frank Family Chardonnay",
+          "Tito's Vodka Drinks"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Saturday",
+          "Sunday"
+        ],
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "specials": [
+          "Calamari Fritti",
+          "Fresh Hot Potato Chips",
+          "Pesto Risotto Balls",
+          "Oven Roasted Artichoke",
+          "Chicken Wings",
+          "Oven Roasted Meatballs",
+          "Italian Beers",
+          "Campario",
+          "Aperol",
+          "Select Cynar Spritz",
+          "Details Cabernet Sauvignon",
+          "Frank Family Chardonnay",
+          "Tito's Vodka Drinks"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://www.ilfornoclassico.com/",
+      "https://www.ilfornoclassico.com/copy-of-dinner-menus",
+      "https://www.ilfornoclassico.com/specials-gallery",
+      "https://www.ilfornoclassico.com/dinner-menus",
+      "https://www.ilfornoclassico.com/_files/ugd/92f591_fd5890c305184d2880977d8e92418b55.pdf",
+      "https://www.ilfornoclassico.com/_files/ugd/92f591_771138122a8a469bb3237a52b8d8869d.pdf"
+    ]
+  },
+  {
+    "name": "Land Ocean Restaurant Roseville",
+    "address": "1151 Galleria Blvd, Ste 241, Roseville, CA 95678",
+    "latitude": 38.773645,
+    "longitude": -121.269399,
+    "phone": "(916) 407-5640",
+    "rating": 4.0,
+    "yelp_id": "h1PQfNO-hyA_BAN3U3lCdA",
+    "yelp_url": "https://www.yelp.com/biz/land-ocean-restaurant-roseville-roseville-3?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://landoceanrestaurants.com/roseville/?utm_source=gmb_lo_roseville&utm_medium=organic&utm_campaign=GMB_Listing",
+    "maps_url": "https://www.google.com/maps/search/Land+Ocean+Restaurant+Roseville+1151+Galleria+Blvd%2C+Ste+241%2C+Roseville%2C+CA+95678",
+    "_yelp_categories": [
+      "newamerican",
+      "steak",
+      "breakfast_brunch"
+    ],
+    "happy_hours": [
+      {
+        "raw_text": "View Happy Hour Specials",
+        "context": "Happy Hour: Monday – Friday, 3:00 PM – 6:00 PM View Happy Hour Specials Frequently Asked Questions Welcome to Land Ocean Roseville! Below you’ll find answers to the most common questions about our menu, lunch",
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [],
+        "source": "website_regex"
+      }
+    ],
+    "visited_pages": [
+      "https://landoceanrestaurants.com/roseville/?utm_source=gmb_lo_roseville&utm_medium=organic&utm_campaign=GMB_Listing",
+      "https://landoceanrestaurants.com/sparks/happy-hour-menu-sparks/",
+      "https://landoceanrestaurants.com/roseville/roseville-happy-hour-menu/",
+      "https://landoceanrestaurants.com/reno/happy-hour-menu-reno/",
+      "https://landoceanrestaurants.com/meridian/happy-hour-menu-meridian/",
+      "https://landoceanrestaurants.com/folsom/happy-hour-menu-folsom/"
+    ]
+  },
+  {
+    "name": "Mikuni Japanese Restaurant and Sushi Bar",
+    "address": "1194 Roseville Pkwy, Roseville, CA 95678",
+    "latitude": 38.768837630280125,
+    "longitude": -121.26813806443128,
+    "phone": "(916) 780-2119",
+    "rating": 4.0,
+    "yelp_id": "rxvsXpLwmkOQEoSxTb-h2A",
+    "yelp_url": "https://www.yelp.com/biz/mikuni-japanese-restaurant-and-sushi-bar-roseville-2?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://mikunisushi.com/locations/the-fountains-in-roseville/",
+    "maps_url": "https://www.google.com/maps/search/Mikuni+Japanese+Restaurant+and+Sushi+Bar+1194+Roseville+Pkwy%2C+Roseville%2C+CA+95678",
+    "_yelp_categories": [
+      "japanese",
+      "sushi",
+      "seafood"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "14:00",
+        "end_time": "17:00",
+        "specials": [
+          "$5.5 dollar bites",
+          "$7 dollar bites",
+          "$7 nigiri sushi",
+          "$7.5 dollar bites",
+          "$9 dollar bites",
+          "$11 dollar bites"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://mikunisushi.com/locations/the-fountains-in-roseville/",
+      "https://mikunisushi.com/locations/fountains-at-roseville/happy-hour",
+      "https://mikunisushi.com/locations/fountains-at-roseville/special-menu-2",
+      "https://mikunisushi.com/locations/fountains-at-roseville/drink-menu",
+      "https://mikunisushi.com/locations/fountains-at-roseville/lunch-menu",
+      "https://mikunisushi.com/locations/fountains-at-roseville/kids-menu",
+      "https://mikunisushi.com/locations/fountains-at-roseville/happy-hour#soft_drinks",
+      "https://mikunisushi.com/locations/fountains-at-roseville/happy-hour#new_lunch_specials"
+    ]
+  },
+  {
+    "name": "Bennett's Kitchen Bar Market",
+    "address": "1595 Eureka Rd, Roseville, CA 95661",
+    "latitude": 38.74891,
+    "longitude": -121.24689,
+    "phone": "(916) 750-5150",
+    "rating": 4.0,
+    "yelp_id": "JcM9uyCEPubb3fef3PImBA",
+    "yelp_url": "https://www.yelp.com/biz/bennetts-kitchen-bar-market-roseville-6?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://bennettsrestaurants.com/",
+    "maps_url": "https://www.google.com/maps/search/Bennett's+Kitchen+Bar+Market+1595+Eureka+Rd%2C+Roseville%2C+CA+95661",
+    "_yelp_categories": [
+      "tradamerican",
+      "breakfast_brunch",
+      "cocktailbars"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "start_time": "14:00",
+        "end_time": "18:00",
+        "specials": [
+          "$6 cocktails",
+          "$10 cocktails",
+          "$15 cocktails",
+          "wines by the glass",
+          "Chicken Flautas",
+          "Hoisin Glazed Ribs",
+          "Grilled Salmon Sandwich"
+        ],
+        "label": "Inflation Busting Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://bennettsrestaurants.com/",
+      "https://bennettsrestaurants.com/wp-content/uploads/2026/04/2026_Happy-Hour-Menu_web.pdf",
+      "https://bennettsrestaurants.com/inflation-busting-happy-hour/",
+      "https://bennettsrestaurants.com/inflation-busting-happy-hour/#tst-dynamic-content",
+      "https://bennettsrestaurants.com/inflation-busting-happy-hour/#tst-app"
+    ]
+  },
+  {
+    "name": "Eureka!",
+    "address": "234 Gibson Dr, Ste 100, Roseville, CA 95678",
+    "latitude": 38.77520732903088,
+    "longitude": -121.27478262237778,
+    "phone": "(916) 864-9500",
+    "rating": 4.0,
+    "yelp_id": "pTo8tq3J0dGS5SNTrLuV-g",
+    "yelp_url": "https://www.yelp.com/biz/eureka-roseville-4?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://eurekarestaurantgroup.com/locations/roseville",
+    "maps_url": "https://www.google.com/maps/search/Eureka!+234+Gibson+Dr%2C+Ste+100%2C+Roseville%2C+CA+95678",
+    "_yelp_categories": [
+      "tradamerican"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "$10 Moscow Mules",
+          "Half Off Wine",
+          "$10 Buffalo Trace Old Fashioned"
+        ],
+        "label": "Hoppy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://eurekarestaurantgroup.com/locations/roseville",
+      "http://eurekarestaurantgroup.com/locations/roseville/menu?page=drinks",
+      "http://eurekarestaurantgroup.com/locations/roseville/menu?page=food",
+      "http://eurekarestaurantgroup.com/locations/roseville/menu?page=hoppy",
+      "http://eurekarestaurantgroup.com/locations",
+      "http://eurekarestaurantgroup.com/menu",
+      "http://eurekarestaurantgroup.com/locations/santa-barbara",
+      "http://eurekarestaurantgroup.com/locations/woodland-hills"
+    ]
+  },
+  {
+    "name": "Telefèric Barcelona",
+    "address": "1190 Roseville Pkwy, Roseville, CA 95678",
+    "latitude": 38.769246575623306,
+    "longitude": -121.26876392079892,
+    "phone": "(657) 366-4103",
+    "rating": 4.0,
+    "yelp_id": "dxoDQD2QE58_k7-FpZWQ0w",
+    "yelp_url": "https://www.yelp.com/biz/telef%C3%A8ric-barcelona-roseville-2?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://www.telefericbarcelona.com/",
+    "maps_url": "https://www.google.com/maps/search/Telef%C3%A8ric+Barcelona+1190+Roseville+Pkwy%2C+Roseville%2C+CA+95678",
+    "_yelp_categories": [
+      "spanish",
+      "mediterranean",
+      "tapasmallplates"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "start_time": "15:00",
+        "end_time": "17:00",
+        "specials": [
+          "half-price"
+        ],
+        "label": "The Social Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://www.telefericbarcelona.com/",
+      "https://www.telefericbarcelona.com/the-social-hour",
+      "https://www.telefericbarcelona.com/locations",
+      "https://www.telefericbarcelona.com/menu-restaurant",
+      "https://www.telefericbarcelona.com/winetasting",
+      "https://www.telefericbarcelona.com/walnut-creek"
+    ]
+  },
+  {
+    "name": "La Popular",
+    "address": "234 Gibson Dr, Ste 120, Roseville, CA 95678",
+    "latitude": 38.775165128963934,
+    "longitude": -121.2747519,
+    "phone": "(916) 952-2869",
+    "rating": 3.9,
+    "yelp_id": "jODqJPXpZJEhtW8tY9VfNQ",
+    "yelp_url": "https://www.yelp.com/biz/la-popular-roseville-2?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://lapopularcdmx.com/",
+    "maps_url": "https://www.google.com/maps/search/La+Popular+234+Gibson+Dr%2C+Ste+120%2C+Roseville%2C+CA+95678",
+    "_yelp_categories": [
+      "mexican",
+      "cocktailbars"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://lapopularcdmx.com/",
+      "https://lapopularcdmx.com/locations/roseville",
+      "https://lapopularcdmx.com/locations",
+      "https://lapopularcdmx.com/menu",
+      "https://lapopularcdmx.com/weekend-brunch-2026",
+      "https://lapopularcdmx.com/locations/roseville/menu?page=drinks",
+      "https://lapopularcdmx.com/locations/roseville/menu?page=happy",
+      "https://lapopularcdmx.com/locations/roseville/menu?page=food"
+    ]
+  },
+  {
+    "name": "Iron Horse Tavern",
+    "address": "1800 15th St, Ste B, Sacramento, CA 95811",
+    "latitude": 38.5695762064691,
+    "longitude": -121.490668354958,
+    "phone": "(916) 448-4488",
+    "rating": 3.9,
+    "yelp_id": "ckOXxP9yhPPEnJ7DNdyKrA",
+    "yelp_url": "https://www.yelp.com/biz/iron-horse-tavern-sacramento?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.ironhorsetavern.net/",
+    "maps_url": "https://www.google.com/maps/search/Iron+Horse+Tavern+1800+15th+St%2C+Ste+B%2C+Sacramento%2C+CA+95811",
+    "_yelp_categories": [
+      "bars",
+      "newamerican",
+      "breakfast_brunch"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "1/2 off appetizers and pizzas",
+          "$1 off big beers",
+          "$2 off wines by the glass",
+          "$2 off well cocktails",
+          "$3 off specialty cocktails"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://www.ironhorsetavern.net/",
+      "http://www.ironhorsetavern.net/#collapse-35bc03d69f938f6730ed",
+      "http://www.ironhorsetavern.net/#locations",
+      "https://www.ironhorsetavern.net/menu/#brunch",
+      "https://www.ironhorsetavern.net/menu/",
+      "http://www.ironhorsetavern.net/#collapse-5750b7569f938f6730ed",
+      "https://www.ironhorsetavern.net/menu/#content-fee43e169fa67855bef5",
+      "https://www.ironhorsetavern.net/wp-content/uploads/2025/07/Iron-Horse-Drink-Menu-R-St-7.9.25-1.pdf"
+    ]
+  },
+  {
+    "name": "Taste",
+    "address": "9402 Main St, Plymouth, CA 95669",
+    "latitude": 38.48102436426458,
+    "longitude": -120.84796686598968,
+    "phone": "(209) 245-3463",
+    "rating": 4.4,
+    "yelp_id": "QmoNRQn-xt1QqoIo0ApUQA",
+    "yelp_url": "https://www.yelp.com/biz/taste-plymouth-4?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.restauranttaste.com/",
+    "maps_url": "https://www.google.com/maps/search/Taste+9402+Main+St%2C+Plymouth%2C+CA+95669",
+    "_yelp_categories": [
+      "newamerican",
+      "gluten_free"
+    ],
+    "happy_hours": [
+      {
+        "raw_text": "(Bar Open Later With A Late Night Snack Menu)",
+        "context": "Wednesday and Thursday 5:00 PM TO 9:00 PM Friday TO Sunday (Bar Open Later With A Late Night Snack Menu) 4:30 PM TO 9:00 PM Monday 5:00 PM TO 9:00 PM",
+        "days": [
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "start_time": "17:00",
+        "end_time": "21:00",
+        "specials": [],
+        "source": "website_regex"
+      }
+    ],
+    "visited_pages": [
+      "http://www.restauranttaste.com/",
+      "https://www.restauranttaste.com/menu",
+      "https://www.restauranttaste.com/our-services",
+      "https://www.restauranttaste.com/menu#Cocktail_Menu",
+      "https://www.restauranttaste.com/menu#Bar_Menu",
+      "https://www.restauranttaste.com/menu#Prix_Fixe_Dinner_Menu"
+    ]
+  },
+  {
+    "name": "Reds' Bistro",
+    "address": "3645 Taylor Rd, Loomis, CA 95650",
+    "latitude": 38.8211487,
+    "longitude": -121.1933066,
+    "phone": "(916) 259-4362",
+    "rating": 4.2,
+    "yelp_id": "fFVv45qm2Syqy2ZiukfcDg",
+    "yelp_url": "https://www.yelp.com/biz/reds-bistro-loomis?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.redsinloomis.com/",
+    "maps_url": "https://www.google.com/maps/search/Reds'+Bistro+3645+Taylor+Rd%2C+Loomis%2C+CA+95650",
+    "_yelp_categories": [
+      "newamerican",
+      "bars",
+      "salad"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "specials": [],
+        "label": "Happy Hour at the Bar",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Friday",
+          "Saturday"
+        ],
+        "start_time": "21:00",
+        "end_time": "22:00",
+        "specials": [
+          "Late Night Bites"
+        ],
+        "label": "Late Night Bites",
+        "confidence": "medium",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://www.redsinloomis.com/",
+      "https://www.redsinloomis.com/_files/ugd/4d77d2_3abc64f04653479da40eae706a4f15a9.pdf"
+    ]
+  },
+  {
+    "name": "Nectar at The Villa - Lounge",
+    "address": "3905 Park Dr, Ste 100, El Dorado Hills, CA 95762",
+    "latitude": 38.65785494261402,
+    "longitude": -121.0709255,
+    "phone": "(916) 932-4969",
+    "rating": 4.2,
+    "yelp_id": "AZpeoBvXCfUTg57G3a46gg",
+    "yelp_url": "https://www.yelp.com/biz/nectar-at-the-villa-lounge-el-dorado-hills-3?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://nectaratthevilla.com/lounge/",
+    "maps_url": "https://www.google.com/maps/search/Nectar+at+The+Villa+-+Lounge+3905+Park+Dr%2C+Ste+100%2C+El+Dorado+Hills%2C+CA+95762",
+    "_yelp_categories": [
+      "beergardens",
+      "wine_bars",
+      "lounges"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Tuesday",
+          "Friday"
+        ],
+        "start_time": "16:00",
+        "end_time": "18:00",
+        "specials": [],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Wednesday"
+        ],
+        "start_time": "15:00",
+        "end_time": "20:00",
+        "specials": [
+          "$5 house wines"
+        ],
+        "label": "Wine Wednesday",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Thursday"
+        ],
+        "start_time": "15:00",
+        "end_time": "20:00",
+        "specials": [
+          "$5 beer all day"
+        ],
+        "label": "Beer Thursday",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://nectaratthevilla.com/lounge/",
+      "https://nectaratthevilla.com/beers/"
+    ]
+  },
+  {
+    "name": "Back Bistro",
+    "address": "230 Palladio Pkwy, Ste 1201, Folsom, CA 95630",
+    "latitude": 38.6485200077894,
+    "longitude": -121.119662820902,
+    "phone": "(916) 986-9100",
+    "rating": 4.2,
+    "yelp_id": "BMkUsUY9FBdGEmCYpyWR_g",
+    "yelp_url": "https://www.yelp.com/biz/back-bistro-folsom?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://backbistro.com/",
+    "maps_url": "https://www.google.com/maps/search/Back+Bistro+230+Palladio+Pkwy%2C+Ste+1201%2C+Folsom%2C+CA+95630",
+    "_yelp_categories": [
+      "newamerican",
+      "tapasmallplates",
+      "cocktailbars"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Saturday",
+          "Sunday"
+        ],
+        "start_time": "11:00",
+        "end_time": "14:00",
+        "specials": [],
+        "label": "Happy Hour",
+        "confidence": "medium",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://backbistro.com/",
+      "http://backbistro.com/specials",
+      "http://backbistro.com/drink-menu",
+      "http://backbistro.com/food-menu",
+      "http://backbistro.com/events",
+      "http://backbistro.com/specials#content",
+      "http://backbistro.com/drink-menu?menu_id=793734",
+      "http://backbistro.com/drink-menu?menu_id=854613"
+    ]
+  },
+  {
+    "name": "Juju Kitchen & Cocktails",
+    "address": "1501 L St, Sacramento, CA 95814",
+    "latitude": 38.576379488299466,
+    "longitude": -121.4870067,
+    "phone": "",
+    "rating": 4.1,
+    "yelp_id": "zdAV8CAMAmos_0enVUkjVg",
+    "yelp_url": "https://www.yelp.com/biz/juju-kitchen-and-cocktails-sacramento-2?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://www.jujukitchenandcocktails.com/",
+    "maps_url": "https://www.google.com/maps/search/Juju+Kitchen+&+Cocktails+1501+L+St%2C+Sacramento%2C+CA+95814",
+    "_yelp_categories": [
+      "newamerican",
+      "tapasmallplates",
+      "cocktailbars"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "start_time": "16:00",
+        "end_time": "18:00",
+        "specials": [
+          "$6 garlic and parmesan arancini",
+          "$6 chicken fajita tacos",
+          "$6 fried meatballs with garlic yogurt sauce",
+          "$6 fried brussels sprouts with lemon aioli",
+          "$6 roasted potatoes with basil aioli",
+          "$3 off all house cocktails",
+          "$3 off wines by the glass",
+          "$8 well spirits",
+          "$8 beef barbacoa tacos"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://www.jujukitchenandcocktails.com/",
+      "https://www.jujukitchenandcocktails.com/drink/#fdm-section-header-happy-hour-drinks",
+      "https://www.jujukitchenandcocktails.com/drink/#fdm-section-header-house-cocktails",
+      "https://www.jujukitchenandcocktails.com/drink/",
+      "https://www.jujukitchenandcocktails.com/menu/",
+      "https://www.jujukitchenandcocktails.com/drink/#wine-by-the-glass"
+    ]
+  },
+  {
+    "name": "The Blue Parrot",
+    "address": "6848 Five Star Blvd, Ste 5, Rocklin, CA 95677",
+    "latitude": 38.77718019509592,
+    "longitude": -121.2636586150424,
+    "phone": "(916) 259-4029",
+    "rating": 4.1,
+    "yelp_id": "uUl8aaIXe8EiD8tFtt0y2g",
+    "yelp_url": "https://www.yelp.com/biz/the-blue-parrot-rocklin?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.blueparrotlounge.com/",
+    "maps_url": "https://www.google.com/maps/search/The+Blue+Parrot+6848+Five+Star+Blvd%2C+Ste+5%2C+Rocklin%2C+CA+95677",
+    "_yelp_categories": [
+      "lounges",
+      "venues",
+      "newamerican"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Wednesday",
+          "Thursday"
+        ],
+        "start_time": "16:30",
+        "end_time": "18:30",
+        "specials": [],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Friday"
+        ],
+        "start_time": "19:00",
+        "end_time": "21:00",
+        "specials": [],
+        "label": "Late Night Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://www.blueparrotlounge.com/"
+    ]
+  },
+  {
+    "name": "Buckhorn BBQ + Grill",
+    "address": "5430 Crossings Dr, Rocklin, CA 95677",
+    "latitude": 38.80108,
+    "longitude": -121.20348,
+    "phone": "(530) 387-5115",
+    "rating": 4.0,
+    "yelp_id": "-GYLxzFUTE3nenh2rrZCwQ",
+    "yelp_url": "https://www.yelp.com/biz/buckhorn-bbq-grill-rocklin-4?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://buckhorngrill.com/",
+    "maps_url": "https://www.google.com/maps/search/Buckhorn+BBQ+++Grill+5430+Crossings+Dr%2C+Rocklin%2C+CA+95677",
+    "_yelp_categories": [
+      "bbq",
+      "burgers",
+      "sandwiches"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "14:00",
+        "end_time": "17:00",
+        "specials": [
+          "$6 all red and white wines",
+          "$6 house beers (Pilsner, Hazy IPA, West Coast IPA, Pale Ale)",
+          "$8 all signature cocktails (Rocklin only)",
+          "$8 tri tip bites",
+          "$8 beer battered onion rings",
+          "$8 burnt ends",
+          "$8 pulled pork tacos",
+          "$8 fun-sized churros with salted caramel sauce",
+          "$10 all signature cocktails, old fashioneds, and margaritas",
+          "$10 Buckhorn burger",
+          "$10 giant Bavarian pretzel",
+          "$10 cali crisp fish tacos (3)",
+          "$10 sliders (3)",
+          "$10 tri tip tacos (3)",
+          "Krispy fried pickles",
+          "OG fries"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://buckhorngrill.com/",
+      "https://buckhorngrill.com/locations/",
+      "https://buckhorngrill.com/menus/",
+      "https://buckhorngrill.com/locations/dixon/?location=valley",
+      "https://buckhorngrill.com/menus/valley/?location=valley"
+    ]
+  },
+  {
+    "name": "Interlude Kitchen & Bar",
+    "address": "8295 Laguna Blvd, Elk Grove, CA 95758",
+    "latitude": 38.42330795301515,
+    "longitude": -121.4005963,
+    "phone": "(916) 829-3733",
+    "rating": 4.0,
+    "yelp_id": "NBEIHLAuijZJ6wPKN0kwGg",
+    "yelp_url": "https://www.yelp.com/biz/interlude-kitchen-and-bar-elk-grove?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://interluderestaurant.com/",
+    "maps_url": "https://www.google.com/maps/search/Interlude+Kitchen+&+Bar+8295+Laguna+Blvd%2C+Elk+Grove%2C+CA+95758",
+    "_yelp_categories": [
+      "newamerican",
+      "wine_bars",
+      "cocktailbars"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "16:00",
+        "end_time": "18:00",
+        "specials": [
+          "$12 peach mule",
+          "$12 strawberry margarita",
+          "$12 Blossom",
+          "$12 buffalo Old Fashioned",
+          "$10 Sommelier-Selected Sparkling Wine",
+          "$10 Sommelier Selected White Wine",
+          "$10 Sommelier Selected Red Wine",
+          "$7 Coast Kölsch Style Ale",
+          "$7 Scrimshaw Pilsner",
+          "$7 Cool Kidz West Coast Ipa",
+          "$7 Oatmeal Stout",
+          "$2 North Coast Oysters",
+          "$16 Fritto Misto",
+          "$12 Delta Asparagus",
+          "$8 Truffle Fries",
+          "$10 Caesar Salad"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://interluderestaurant.com/",
+      "https://interluderestaurant.com/menu/happy-hour/",
+      "https://interluderestaurant.com/location/interlude-kitchen-bar/",
+      "https://interluderestaurant.com/menu/dinner",
+      "https://interluderestaurant.com/menu/dinner/",
+      "https://interluderestaurant.com/menu/dessert/",
+      "https://interluderestaurant.com/menu/happy-hour/#main-content",
+      "https://interluderestaurant.com/location/interlude-kitchen-bar/#main-content"
+    ]
+  },
+  {
+    "name": "Lazy Dog Restaurant & Bar",
+    "address": "300 Palladio Pkwy, Folsom, CA 95630",
+    "latitude": 38.649727327083816,
+    "longitude": -121.11768771517085,
+    "phone": "(916) 378-4660",
+    "rating": 4.0,
+    "yelp_id": "r3vkDw9n_NQPfCDIoYZNig",
+    "yelp_url": "https://www.yelp.com/biz/lazy-dog-restaurant-and-bar-folsom?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://lazydogrestaurants.com/pages/folsom-ca",
+    "maps_url": "https://www.google.com/maps/search/Lazy+Dog+Restaurant+&+Bar+300+Palladio+Pkwy%2C+Folsom%2C+CA+95630",
+    "_yelp_categories": [
+      "comfortfood",
+      "newamerican",
+      "burgers"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "drinks and bites starting at $3"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "start_time": "21:00",
+        "end_time": "00:00",
+        "specials": [
+          "late-night favorites"
+        ],
+        "label": "Late Night",
+        "confidence": "medium",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://lazydogrestaurants.com/pages/folsom-ca",
+      "https://lazydogrestaurants.com/pages/happy-hour-late-night",
+      "https://lazydogrestaurants.com/pages/locations",
+      "https://lazydogrestaurants.com/pages/dog-menu",
+      "https://lazydogrestaurants.com/pages/happy-hour-late-night#MainContent",
+      "https://lazydogrestaurants.com/pages/locations#MainContent",
+      "https://lazydogrestaurants.com/pages/dog-menu#MainContent"
+    ]
+  },
+  {
+    "name": "Sienna Restaurant El Dorado Hills",
+    "address": "1006 White Rock Rd, Ste 200, El Dorado Hills, CA 95762",
+    "latitude": 38.645907,
+    "longitude": -121.067202,
+    "phone": "(916) 941-9694",
+    "rating": 4.0,
+    "yelp_id": "5kLjOhCJ_LJQXV_ZmaaDCA",
+    "yelp_url": "https://www.yelp.com/biz/sienna-restaurant-el-dorado-hills-el-dorado-hills-4?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://siennarestaurants.com/?utm_source=gmb_sienna_edh&utm_medium=organic&utm_campaign=GMB_Listing",
+    "maps_url": "https://www.google.com/maps/search/Sienna+Restaurant+El+Dorado+Hills+1006+White+Rock+Rd%2C+Ste+200%2C+El+Dorado+Hills%2C+CA+95762",
+    "_yelp_categories": [
+      "newamerican",
+      "breakfast_brunch",
+      "steak"
+    ],
+    "happy_hours": [
+      {
+        "raw_text": "Happy Hours – Roseville",
+        "context": "Caymus, California 16 Cabernet Sauvignon Happy Hours – Roseville Monday-Friday 3pm-6pm Looking for gluten-free options? Sienna Roseville offers a dedicated gluten-free menu",
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [],
+        "source": "website_regex"
+      }
+    ],
+    "visited_pages": [
+      "https://siennarestaurants.com/?utm_source=gmb_sienna_edh&utm_medium=organic&utm_campaign=GMB_Listing",
+      "https://siennarestaurants.com/roseville/roseville-happy-hour/",
+      "https://siennarestaurants.com/el-dorado-hills/edh-happy-hour/",
+      "https://siennarestaurants.com/roseville/drink-menu-roseville/",
+      "https://siennarestaurants.com/el-dorado-hills/el-dorado-hills-drink-menu/",
+      "https://siennarestaurants.com/roseville/roseville-childrens-menu/",
+      "https://siennarestaurants.com/roseville/roseville-happy-hour/#content",
+      "https://siennarestaurants.com/el-dorado-hills/edh-happy-hour/#content"
+    ]
+  },
+  {
+    "name": "Pete's Restaurant & Brewhouse",
+    "address": "2210 Sunset Blvd, Ste 180, Rocklin, CA 95765",
+    "latitude": 38.8041047,
+    "longitude": -121.2729995,
+    "phone": "(916) 899-6881",
+    "rating": 3.9,
+    "yelp_id": "F2QPHjzYmzY3CL8IXebBRA",
+    "yelp_url": "https://www.yelp.com/biz/petes-restaurant-and-brewhouse-rocklin?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://petesrocklin.com/",
+    "maps_url": "https://www.google.com/maps/search/Pete's+Restaurant+&+Brewhouse+2210+Sunset+Blvd%2C+Ste+180%2C+Rocklin%2C+CA+95765",
+    "_yelp_categories": [
+      "pizza",
+      "burgers",
+      "bars"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://petesrocklin.com/",
+      "https://petesrocklin.com/specials-and-events.html"
+    ]
+  },
+  {
+    "name": "Iron Horse Tavern",
+    "address": "460 Palladio Pkwy, Folsom, CA 95630",
+    "latitude": 38.651894,
+    "longitude": -121.120326,
+    "phone": "(916) 618-4322",
+    "rating": 3.9,
+    "yelp_id": "_K-VaVua_Y5YIp20hXwZYg",
+    "yelp_url": "https://www.yelp.com/biz/iron-horse-tavern-folsom?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://www.ironhorsetavern.net/",
+    "maps_url": "https://www.google.com/maps/search/Iron+Horse+Tavern+460+Palladio+Pkwy%2C+Folsom%2C+CA+95630",
+    "_yelp_categories": [
+      "newamerican",
+      "bars",
+      "breakfast_brunch"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "1/2 off appetizers and pizzas",
+          "$1 off big beers",
+          "$2 off wines by the glass",
+          "$2 off well cocktails",
+          "$3 off specialty cocktails"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://www.ironhorsetavern.net/",
+      "https://www.ironhorsetavern.net/#collapse-35bc03d69f938f6730ed",
+      "https://www.ironhorsetavern.net/#locations",
+      "https://www.ironhorsetavern.net/menu/#brunch",
+      "https://www.ironhorsetavern.net/menu/",
+      "https://www.ironhorsetavern.net/#collapse-5750b7569f938f6730ed",
+      "https://www.ironhorsetavern.net/menu/#content-fee43e169fa67855bef5",
+      "https://www.ironhorsetavern.net/wp-content/uploads/2025/07/Iron-Horse-Drink-Menu-R-St-7.9.25-1.pdf"
+    ]
+  },
+  {
+    "name": "Lazy Dog Restaurant & Bar",
+    "address": "238 Gibson Dr Pad 6, Roseville, CA 95678",
+    "latitude": 38.77471799974997,
+    "longitude": -121.2740776588955,
+    "phone": "(916) 727-6321",
+    "rating": 3.9,
+    "yelp_id": "4xkLc8MlqqA2-PLdGjZLDA",
+    "yelp_url": "https://www.yelp.com/biz/lazy-dog-restaurant-and-bar-roseville-2?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "https://lazydogrestaurants.com/pages/roseville-ca",
+    "maps_url": "https://www.google.com/maps/search/Lazy+Dog+Restaurant+&+Bar+238+Gibson+Dr+Pad+6%2C+Roseville%2C+CA+95678",
+    "_yelp_categories": [
+      "newamerican",
+      "burgers",
+      "comfortfood"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "$3+ drinks and bites"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "start_time": "21:00",
+        "end_time": "00:00",
+        "specials": [
+          "late-night favorites"
+        ],
+        "label": "Late Night",
+        "confidence": "medium",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "https://lazydogrestaurants.com/pages/roseville-ca",
+      "https://lazydogrestaurants.com/pages/happy-hour-late-night",
+      "https://lazydogrestaurants.com/pages/locations",
+      "https://lazydogrestaurants.com/pages/dog-menu",
+      "https://lazydogrestaurants.com/pages/happy-hour-late-night#MainContent",
+      "https://lazydogrestaurants.com/pages/locations#MainContent",
+      "https://lazydogrestaurants.com/pages/dog-menu#MainContent"
+    ]
+  },
+  {
+    "name": "Mas Taco Bar",
+    "address": "450 Palladio Pkwy, Folsom, CA 95630",
+    "latitude": 38.651807,
+    "longitude": -121.120306,
+    "phone": "(916) 597-2929",
+    "rating": 3.8,
+    "yelp_id": "bMudSDBpw1osrwWVi-T9GA",
+    "yelp_url": "https://www.yelp.com/biz/mas-taco-bar-folsom-3?adjust_creative=03NWhb4weZJeQOH-R-J1pA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=03NWhb4weZJeQOH-R-J1pA",
+    "website": "http://www.mastacobar.com/",
+    "maps_url": "https://www.google.com/maps/search/Mas+Taco+Bar+450+Palladio+Pkwy%2C+Folsom%2C+CA+95630",
+    "_yelp_categories": [
+      "breakfast_brunch",
+      "tacos"
+    ],
+    "happy_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "specials": [
+          "1/2 off Starters",
+          "$1 off Select Tacos (drunken chicken, pork al pastor, banh mi shrimp, battered fish, chile relleno, pork chicharrón)",
+          "$1 off Big Tap Beers",
+          "$2 off Wine by the Glass",
+          "$2 off Margaritas",
+          "$2 off Wells",
+          "$3 off Craft Cocktails",
+          "$5 off Margarita Gigantes - 32oz Goblet"
+        ],
+        "label": "Happy Hour",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Monday"
+        ],
+        "start_time": "19:00",
+        "end_time": "20:30",
+        "specials": [
+          "1/2 off tequilas"
+        ],
+        "label": "Tacos and Trivia",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      },
+      {
+        "days": [
+          "Wednesday"
+        ],
+        "start_time": "19:00",
+        "end_time": "21:00",
+        "specials": [
+          "1/2 off tequilas"
+        ],
+        "label": "Tacos and Trivia",
+        "confidence": "high",
+        "raw_text": "[extracted by LLM]",
+        "source": "llm"
+      }
+    ],
+    "visited_pages": [
+      "http://www.mastacobar.com/",
+      "https://www.mastacobar.com/wp-content/uploads/2025/10/Mas_Drinks_8.5x14-copy.pdf",
+      "http://www.mastacobar.com/#collapse-b86970569f9a6ef89bff",
+      "http://www.mastacobar.com/#collapse-b29f0f469f9a6ef89bff",
+      "https://www.mastacobar.com/menu/",
+      "https://www.mastacobar.com/menu/#content-6b383d969fa465d493f8",
+      "https://www.mastacobar.com/wp-content/uploads/2026/03/Mas_Drinks_8.5x14-copy-6.pdf",
+      "https://www.mastacobar.com/menu/#content-edeb66d69fa465d493f8"
+    ]
+  }
+]
