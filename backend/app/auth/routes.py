@@ -102,6 +102,14 @@ def register(payload: RegisterRequest, db: Session = Depends(get_db)):
     db.flush()
 
     code = _issue_verification_code(db, user)
+
+    # Promote any pending friend records (where someone else added this
+    # user by email/phone before they signed up) to active.
+    from app.friends.service import reconcile_pending_for_new_user
+    reconciled = reconcile_pending_for_new_user(db, user)
+    if reconciled:
+        print(f"[auth] Reconciled {reconciled} pending friend record(s) for {user.email}")
+
     db.commit()
     db.refresh(user)
 

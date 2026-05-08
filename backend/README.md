@@ -283,10 +283,61 @@ Response sorts venues by distance from `(lat, lng)`.
 
 `GET /venues/{id}` returns full venue details with all its happy hours.
 
+## Outings, Friends & Push Notifications (Week 2 Half 2)
+
+After authentication and venue discovery, the app's social layer:
+users build a friends list, organize outings at specific venues, invite
+friends, and get push notifications about responses.
+
+### Friends
+
+```
+GET    /friends                — list this user's friends
+POST   /friends                — add by phone or email; pending until they sign up
+DELETE /friends/{friendship_id} — remove
+```
+
+Adding a friend by phone or email that doesn't yet have an account
+creates a "pending" record. When that contact later signs up at
+`/auth/register`, the friendship is automatically activated (via the
+reconciliation hook in `auth/routes.py`).
+
+### Outings
+
+```
+POST   /outings                  — create an outing (organizer is auto-joined as accepted)
+GET    /outings                  — list outings the current user is in (organizer or invitee)
+GET    /outings/{id}             — outing detail with member statuses
+POST   /outings/{id}/invite      — organizer invites users by user_id or by phone/email
+POST   /outings/{id}/respond     — invitee accepts or declines
+GET    /outings/suggest          — density-based date/time recommendation
+```
+
+`/outings/suggest` takes `lat`, `lng`, `radius_miles`, `window_hours`
+and returns the (day_of_week, start, end) over the next 7 days with
+the most happy-hour-running venues in the area. Pure SQL aggregation,
+no ML.
+
+### Devices (push notifications)
+
+```
+POST   /devices/register   — register an APNs token + device_id for the current user
+```
+
+When an organizer invites someone, the backend fires a push notification
+in the background. When an invitee responds, the organizer is notified
+similarly.
+
+When `APNS_KEY_PATH` and friends are not set in `.env`, push sends are
+**stubbed to console output** (so the rest of the system works
+end-to-end without an Apple Developer account). Set the four APNs env
+vars when ready to send real pushes — see `app/notifications/apns.py`
+for the setup steps.
+
 ## Roadmap (per the plan)
 
 - **Week 1:** auth + DB schema ✅
-- **Week 2 Half 1 (now):** venues + scanner ✅
-- **Week 2 Half 2:** outings, friends, push notifications
+- **Week 2 Half 1:** venues + scanner ✅
+- **Week 2 Half 2 (now):** outings + friends + push notifications ✅
 - **Week 3-4:** iOS app
 - **Week 5:** TestFlight

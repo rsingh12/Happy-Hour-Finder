@@ -8,6 +8,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
 from app.auth.routes import router as auth_router
 from app.venues.routes import router as venues_router
+from app.friends.routes import router as friends_router
+from app.outings.routes import router as outings_router
+from app.notifications.routes import router as devices_router
 
 
 app = FastAPI(
@@ -32,8 +35,6 @@ def health():
 
 app.include_router(auth_router)
 app.include_router(venues_router)
-
-# Routers added in subsequent halves of week 2:
-#   /outings       -> app.outings.routes
-#   /friends       -> app.friends.routes
-#   /devices       -> app.notifications.routes
+app.include_router(friends_router)
+app.include_router(outings_router)
+app.include_router(devices_router)
