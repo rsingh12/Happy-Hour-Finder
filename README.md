@@ -83,6 +83,29 @@ parse error), require both days AND start/end time before persisting.
 
 ---
 
+## Screenshots
+
+![Swagger UI](./screenshots/swagger-ui.png)
+*FastAPI auto-generated docs at `/docs` — interactive testing of the auth and venues endpoints.*
+
+![Scanner output](./screenshots/scanner-running.png)
+*Live scanner output showing Yelp discovery, website crawl, and LLM-based extraction in action.*
+
+![Sample data](./screenshots/login-user.png)
+*Sample of user's login through API.*
+
+![Sample data](./screenshots/dataframe.png)
+*Sample of extracted venue data — 79 happy hour entries across 25-mile radius near Roseville, CA.*
+
+![Sample DB record](./screenshots/database-record.png)
+*One row from the `venues` + `happy_hours` join, showing the structure of extracted data including LLM source attribution and confidence.*
+
+## End-to-end verification
+A smoke test (`smoke_test_half2.py`) walks two users through the full flow:
+register → verify → login → friend → outing → invite → accept → query.
+
+![smoke test](./screenshots/smoke-test-passing.png)
+
 ## Tech stack
 
 **Backend:** FastAPI · SQLAlchemy 2.0 · Alembic · Postgres 16 · Docker · pydantic-settings · bcrypt + JWT · python-jose · uvicorn
