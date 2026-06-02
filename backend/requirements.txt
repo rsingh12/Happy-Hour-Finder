@@ -22,5 +22,6 @@ selenium==4.25.0
 webdriver-manager==4.0.2
 beautifulsoup4==4.12.3
 requests==2.32.3
+rapidfuzz==3.10.1
 
 sendgrid==6.11.0

@@ -333,7 +333,7 @@ def extract_with_vision(image_url):
             "label": e.get("label") or "Happy Hour",
             "confidence": e.get("confidence") or "medium",
             "raw_text": f"[extracted by vision from {image_url}]",
-            "source": "vision",
+            "source": "llm_vision",
         })
 
     return valid

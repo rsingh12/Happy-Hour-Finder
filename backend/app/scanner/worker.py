@@ -33,18 +33,46 @@ import sys
 from datetime import datetime, time as dt_time, timezone
 from typing import Optional
 
+from rapidfuzz import fuzz
 from sqlalchemy.orm import Session
 
 from app.database import SessionLocal
-from app.models import HappyHour, Venue
+from app.models import Confidence, ExtractionSource, HappyHour, Venue
+from app.scanner.geo import haversine_meters
 from app.scanner.happy_hour_parser import parse_all_places
+from app.scanner.normalize import (
+    extract_google_place_id,
+    extract_street_number,
+    extract_zip,
+    normalize_address,
+    normalize_name,
+)
 from app.scanner.scanner import scan_google_maps
 from app.scanner.website_finder import find_websites_for_venues
 from app.scanner.yelp_discovery import discover_venues as yelp_discover
 from app.scanner.yelp_discovery import is_available as yelp_available
 
 
-# ---------- Helpers ----------
+# False positives (merging distinct venues) are worse than false negatives
+# (creating a near-duplicate), so thresholds are deliberately conservative.
+GEO_RADIUS_METERS = 75.0
+FUZZY_NAME_THRESHOLD = 92
+FUZZY_GEO_RADIUS_METERS = 500.0
+DEFAULT_HH_LABEL = "Happy Hour"
+
+
+def _coerce_enum(value, enum_cls):
+    """Coerce a raw string into the given enum, or return None on miss.
+
+    Fails fast on typos — a bad string raises ValueError here rather than
+    silently writing garbage that the DB will reject on commit.
+    """
+    if value is None or value == "":
+        return None
+    if isinstance(value, enum_cls):
+        return value
+    return enum_cls(value)
+
 
 def _parse_time_str(s: Optional[str]) -> Optional[dt_time]:
     if not s:
@@ -56,24 +84,99 @@ def _parse_time_str(s: Optional[str]) -> Optional[dt_time]:
         return None
 
 
-def _find_or_create_venue(db: Session, place: dict) -> Venue:
-    """Upsert a venue by name + address."""
-    name = place.get("name") or "Unknown"
-    address = place.get("address") or ""
+def _match_venue(
+    db: Session, place: dict, *, place_id: Optional[str], norm_name: str
+) -> Optional[Venue]:
+    """Find an existing venue matching `place` via a 4-step cascade.
 
-    venue = (
-        db.query(Venue)
-        .filter(Venue.name == name, Venue.address == address)
-        .one_or_none()
+    1. Exact `google_place_id` (durable, near-zero false-positive rate)
+    2. Same normalized_name within ~75m geo radius
+    3. Same normalized_name + same street number + same ZIP
+    4. Fuzzy name match within a wider geo radius (~500m)
+    """
+    lat = place.get("latitude")
+    lng = place.get("longitude")
+    address = place.get("address") or ""
+    street_num = extract_street_number(address)
+    zip_code = extract_zip(address)
+
+    if place_id:
+        match = (
+            db.query(Venue)
+            .filter(Venue.google_place_id == place_id)
+            .one_or_none()
+        )
+        if match:
+            return match
+
+    if not norm_name:
+        return None
+
+    candidates = (
+        db.query(Venue).filter(Venue.normalized_name == norm_name).all()
     )
+
+    if lat is not None and lng is not None:
+        for c in candidates:
+            d = haversine_meters(lat, lng, c.latitude, c.longitude)
+            if d is not None and d <= GEO_RADIUS_METERS:
+                return c
+
+    if street_num and zip_code:
+        for c in candidates:
+            if (
+                extract_street_number(c.address) == street_num
+                and extract_zip(c.address) == zip_code
+            ):
+                return c
+
+    if lat is not None and lng is not None:
+        # 500m ≈ 0.005° latitude; box is loose because actual distance is
+        # checked below. Prefix filter on normalized_name keeps the candidate
+        # set small in dense areas (Manhattan can return hundreds per box).
+        deg = 0.01
+        prefix = norm_name[:4]
+        nearby = (
+            db.query(Venue)
+            .filter(
+                Venue.latitude.between(lat - deg, lat + deg),
+                Venue.longitude.between(lng - deg, lng + deg),
+                Venue.normalized_name.ilike(f"{prefix}%"),
+            )
+            .all()
+        )
+        for c in nearby:
+            d = haversine_meters(lat, lng, c.latitude, c.longitude)
+            if d is None or d > FUZZY_GEO_RADIUS_METERS:
+                continue
+            if fuzz.token_set_ratio(norm_name, c.normalized_name) >= FUZZY_NAME_THRESHOLD:
+                return c
+
+    return None
+
+
+def _find_or_create_venue(db: Session, place: dict) -> tuple[Venue, bool]:
+    """Match an existing venue with the cascade, or create a new one.
+
+    Returns `(venue, is_new)`. On match, `normalized_name` is always
+    recomputed from the live name (so a corrected venue name updates its
+    lookup key); other fields fill in only when previously null/empty.
+    """
+    name = place.get("name") or "Unknown"
+    place_id = extract_google_place_id(place.get("maps_url"))
+    norm_name = normalize_name(name)
+
+    venue = _match_venue(db, place, place_id=place_id, norm_name=norm_name)
 
     if venue is None:
         venue = Venue(
             name=name,
-            address=address,
+            normalized_name=norm_name,
+            address=place.get("address") or "",
             latitude=place.get("latitude"),
             longitude=place.get("longitude"),
             google_maps_url=place.get("maps_url") or None,
+            google_place_id=place_id,
             website=place.get("website") or None,
             phone=place.get("phone") or None,
             rating=place.get("rating"),
@@ -81,49 +184,97 @@ def _find_or_create_venue(db: Session, place: dict) -> Venue:
         db.add(venue)
         db.flush()
         print(f"  [+] Created venue: {name}")
-    else:
-        venue.latitude = place.get("latitude") or venue.latitude
-        venue.longitude = place.get("longitude") or venue.longitude
-        venue.google_maps_url = place.get("maps_url") or venue.google_maps_url
-        venue.website = place.get("website") or venue.website
-        venue.phone = place.get("phone") or venue.phone
-        venue.rating = place.get("rating") or venue.rating
-        print(f"  [~] Updated venue: {name}")
+        return venue, True
 
-    return venue
+    venue.normalized_name = normalize_name(venue.name)
+    venue.google_place_id = venue.google_place_id or place_id
+    venue.latitude = venue.latitude if venue.latitude is not None else place.get("latitude")
+    venue.longitude = venue.longitude if venue.longitude is not None else place.get("longitude")
+    venue.google_maps_url = venue.google_maps_url or place.get("maps_url")
+    venue.website = venue.website or place.get("website")
+    venue.phone = venue.phone or place.get("phone")
+    venue.rating = venue.rating if venue.rating is not None else place.get("rating")
+    print(f"  [~] Matched existing venue: {venue.name}")
+    return venue, False
 
 
-def _replace_happy_hours(db: Session, venue: Venue, happy_hours: list[dict]) -> int:
-    db.query(HappyHour).filter(HappyHour.venue_id == venue.id).delete()
+def _hh_key(days, start_time, end_time, label: str) -> tuple:
+    """Days are treated as a set (Mon-Fri == Mon,Tue,Wed,Thu,Fri)."""
+    return (
+        frozenset(d for d in (days or []) if d),
+        start_time,
+        end_time,
+        (label or "").strip(),
+    )
 
-    inserted = 0
+
+def _merge_happy_hours(
+    db: Session, venue: Venue, happy_hours: list[dict], *, is_new_venue: bool = False
+) -> int:
+    """Merge scanned happy hours into the venue's existing set.
+
+    Non-destructive: unmatched-existing entries are preserved. Matching
+    entries (same key) refresh `scanned_at`, `source`, `confidence`, and
+    `specials` when the new scrape provides them.
+    """
+    if not happy_hours:
+        return 0
+
+    existing_by_key: dict[tuple, HappyHour] = {}
+    if not is_new_venue:
+        existing = db.query(HappyHour).filter(HappyHour.venue_id == venue.id).all()
+        existing_by_key = {
+            _hh_key(h.days, h.start_time, h.end_time, h.label): h for h in existing
+        }
+
+    now = datetime.now(timezone.utc)
+    upserted = 0
     for hh in happy_hours:
         days = hh.get("days") or []
         if not isinstance(days, list):
             days = []
+        start_t = _parse_time_str(hh.get("start_time"))
+        end_t = _parse_time_str(hh.get("end_time"))
+        label = hh.get("label") or DEFAULT_HH_LABEL
+        source = _coerce_enum(hh.get("source"), ExtractionSource)
+        confidence = _coerce_enum(hh.get("confidence"), Confidence)
+        key = _hh_key(days, start_t, end_t, label)
 
-        record = HappyHour(
+        match = existing_by_key.get(key)
+        if match is not None:
+            match.scanned_at = now
+            match.source = source or match.source
+            match.confidence = confidence or match.confidence
+            # Don't wipe a previously-extracted list if the new scrape lacks one.
+            if hh.get("specials"):
+                match.specials = hh["specials"]
+            upserted += 1
+            continue
+
+        db.add(HappyHour(
             venue_id=venue.id,
-            label=hh.get("label") or "Happy Hour",
+            label=label,
             days=days,
-            start_time=_parse_time_str(hh.get("start_time")),
-            end_time=_parse_time_str(hh.get("end_time")),
+            start_time=start_t,
+            end_time=end_t,
             specials=hh.get("specials") or [],
-            source=hh.get("source"),
-            confidence=hh.get("confidence"),
-            scanned_at=datetime.now(timezone.utc),
-        )
-        db.add(record)
-        inserted += 1
+            source=source,
+            confidence=confidence,
+            scanned_at=now,
+        ))
+        upserted += 1
 
-    return inserted
+    return upserted
 
 
 def _dedupe_places(places: list[dict]) -> list[dict]:
+    """In-batch dedupe using the same normalization rules as the DB-side
+    cascade match, so what `_match_venue` would collapse is also collapsed
+    upstream."""
     seen = set()
     unique = []
     for p in places:
-        key = (p.get("name", "").strip().lower(), p.get("address", "").strip().lower())
+        key = (normalize_name(p.get("name")), normalize_address(p.get("address")))
         if key in seen:
             continue
         seen.add(key)
@@ -240,8 +391,10 @@ def run_scan(
 
     try:
         for place in enriched:
-            venue = _find_or_create_venue(db, place)
-            inserted = _replace_happy_hours(db, venue, place.get("happy_hours", []))
+            venue, is_new = _find_or_create_venue(db, place)
+            inserted = _merge_happy_hours(
+                db, venue, place.get("happy_hours", []), is_new_venue=is_new
+            )
             venues_count += 1
             happy_hours_count += inserted
             db.commit()

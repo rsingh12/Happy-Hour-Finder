@@ -10,6 +10,7 @@ Schema mirrors the data model in the plan file:
 
 from __future__ import annotations
 
+import enum
 import uuid
 from datetime import datetime, date, time
 from typing import Optional
@@ -18,6 +19,7 @@ from sqlalchemy import (
     Boolean,
     Date,
     DateTime,
+    Enum,
     Float,
     ForeignKey,
     Integer,
@@ -31,6 +33,29 @@ from sqlalchemy.dialects.postgresql import ARRAY, UUID
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.database import Base
+
+
+class DayOfWeek(str, enum.Enum):
+    MONDAY = "Monday"
+    TUESDAY = "Tuesday"
+    WEDNESDAY = "Wednesday"
+    THURSDAY = "Thursday"
+    FRIDAY = "Friday"
+    SATURDAY = "Saturday"
+    SUNDAY = "Sunday"
+
+
+class ExtractionSource(str, enum.Enum):
+    LLM = "llm"
+    LLM_VISION = "llm_vision"
+    REGEX = "regex"
+    MANUAL = "manual"
+
+
+class Confidence(str, enum.Enum):
+    HIGH = "high"
+    MEDIUM = "medium"
+    LOW = "low"
 
 
 def _uuid_pk():
@@ -71,6 +96,10 @@ class Venue(Base):
     latitude: Mapped[Optional[float]] = mapped_column(Float, index=True)
     longitude: Mapped[Optional[float]] = mapped_column(Float, index=True)
     google_maps_url: Mapped[Optional[str]] = mapped_column(Text)
+    google_place_id: Mapped[Optional[str]] = mapped_column(
+        String(128), unique=True, index=True
+    )
+    normalized_name: Mapped[Optional[str]] = mapped_column(String(255), index=True)
     website: Mapped[Optional[str]] = mapped_column(Text)
     phone: Mapped[Optional[str]] = mapped_column(String(64))
     rating: Mapped[Optional[float]] = mapped_column(Float)
@@ -93,12 +122,34 @@ class HappyHour(Base):
         index=True,
     )
     label: Mapped[str] = mapped_column(String(64), default="Happy Hour", nullable=False)
-    days: Mapped[list[str]] = mapped_column(ARRAY(String(16)), default=list, nullable=False)
+    days: Mapped[list[DayOfWeek]] = mapped_column(
+        ARRAY(
+            Enum(
+                DayOfWeek,
+                name="day_of_week",
+                values_callable=lambda e: [m.value for m in e],
+            )
+        ),
+        default=list,
+        nullable=False,
+    )
     start_time: Mapped[Optional[time]] = mapped_column(Time)
     end_time: Mapped[Optional[time]] = mapped_column(Time)
     specials: Mapped[list[str]] = mapped_column(ARRAY(Text), default=list, nullable=False)
-    source: Mapped[Optional[str]] = mapped_column(String(32))   # regex / llm / vision
-    confidence: Mapped[Optional[str]] = mapped_column(String(16))  # high / medium / low
+    source: Mapped[Optional[ExtractionSource]] = mapped_column(
+        Enum(
+            ExtractionSource,
+            name="extraction_source",
+            values_callable=lambda e: [m.value for m in e],
+        )
+    )
+    confidence: Mapped[Optional[Confidence]] = mapped_column(
+        Enum(
+            Confidence,
+            name="confidence_level",
+            values_callable=lambda e: [m.value for m in e],
+        )
+    )
     scanned_at: Mapped[datetime] = _now()
 
     venue: Mapped["Venue"] = relationship(back_populates="happy_hours")

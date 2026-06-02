@@ -3,7 +3,12 @@
     "allow": [
       "Bash(pip --version)",
       "Bash(docker --version)",
-      "Bash(docker compose *)"
+      "Bash(docker compose *)",
+      "Bash(which docker *)",
+      "Bash(which psql *)",
+      "Bash(ls -la backend/.venv)",
+      "Bash(ls -la .venv)",
+      "Bash(ls backend/.env)"
     ]
   }
 }

@@ -475,7 +475,7 @@ def scrape_website_for_happy_hour(url):
     # Step 3: regex final fallback (only when LLM is unavailable or both came up empty)
     regex_entries = extract_happy_hour_from_text(combined_text)
     for e in regex_entries:
-        e["source"] = "website_regex"
+        e["source"] = "regex"
     regex_entries = [e for e in regex_entries if is_realistic_happy_hour(e)]
     regex_ranked = rank_and_dedupe(regex_entries)
     return {"url": url, "visited": visited, "happy_hours": regex_ranked[:3]}

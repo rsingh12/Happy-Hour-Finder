@@ -26,7 +26,7 @@ from typing import Optional
 
 from app.scanner.happy_hour_parser import parse_all_places
 from app.scanner.scanner import scan_place_by_maps_url
-from app.scanner.worker import _find_or_create_venue, _replace_happy_hours
+from app.scanner.worker import _find_or_create_venue, _merge_happy_hours
 from app.database import SessionLocal
 
 
@@ -83,8 +83,10 @@ def _ingest(place: dict) -> dict:
 
     db = SessionLocal()
     try:
-        venue = _find_or_create_venue(db, enriched)
-        inserted = _replace_happy_hours(db, venue, enriched.get("happy_hours", []))
+        venue, is_new = _find_or_create_venue(db, enriched)
+        inserted = _merge_happy_hours(
+            db, venue, enriched.get("happy_hours", []), is_new_venue=is_new
+        )
         db.commit()
     except Exception as e:
         db.rollback()

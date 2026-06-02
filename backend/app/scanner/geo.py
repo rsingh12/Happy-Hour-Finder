@@ -17,8 +17,8 @@ _VENUE_LATLNG_PATTERN = re.compile(r"!8m2!3d(-?\d+\.\d+)!4d(-?\d+\.\d+)")
 _VIEWPORT_LATLNG_PATTERN = re.compile(r"@(-?\d+\.\d+),(-?\d+\.\d+),")
 
 
-# Earth's radius in miles, used for bounding-box math
 EARTH_RADIUS_MILES = 3958.8
+EARTH_RADIUS_METERS = 6_371_000.0
 
 
 def parse_latlng_from_maps_url(url: str) -> Optional[tuple[float, float]]:
@@ -57,11 +57,26 @@ def bounding_box(lat: float, lng: float, radius_miles: float) -> tuple[float, fl
     return (lat - lat_delta, lat + lat_delta, lng - lng_delta, lng + lng_delta)
 
 
-def haversine_miles(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
-    """Great-circle distance between two points in miles."""
+def _haversine_radians(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
     lat1_r, lat2_r = math.radians(lat1), math.radians(lat2)
     dlat = lat2_r - lat1_r
     dlng = math.radians(lng2 - lng1)
     a = math.sin(dlat / 2) ** 2 + math.cos(lat1_r) * math.cos(lat2_r) * math.sin(dlng / 2) ** 2
-    c = 2 * math.asin(math.sqrt(a))
-    return EARTH_RADIUS_MILES * c
+    return 2 * math.asin(math.sqrt(a))
+
+
+def haversine_miles(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
+    """Great-circle distance between two points in miles."""
+    return EARTH_RADIUS_MILES * _haversine_radians(lat1, lng1, lat2, lng2)
+
+
+def haversine_meters(
+    lat1: Optional[float],
+    lng1: Optional[float],
+    lat2: Optional[float],
+    lng2: Optional[float],
+) -> Optional[float]:
+    """Great-circle distance in meters; None if any coord is missing."""
+    if None in (lat1, lng1, lat2, lng2):
+        return None
+    return EARTH_RADIUS_METERS * _haversine_radians(lat1, lng1, lat2, lng2)
